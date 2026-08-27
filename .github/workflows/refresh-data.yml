@@ -81,7 +81,16 @@ jobs:
           if git diff --staged --quiet; then
             echo "App repo already up to date."
           else
-            # [skip ci] so the private repo does not spend the minutes it lacks.
-            git commit -m "chore: sync bundled data from commander-codex-build [skip ci]"
+            # Deliberately NO [skip ci]. The app imports this JSON directly
+            # (src/lib/prices.ts etc.), so it is bundled at build time and the
+            # website only changes when Vercel rebuilds. Vercel honours
+            # [skip ci], so the old marker silently prevented data from ever
+            # reaching the site — it only appeared when something else
+            # triggered a deploy.
+            #
+            # This does not cost GitHub Actions minutes: Vercel builds on its
+            # own infrastructure, and the private repo's workflows are
+            # schedule-triggered, so a push never started them anyway.
+            git commit -m "chore: sync bundled data from commander-codex-build"
             git push
           fi

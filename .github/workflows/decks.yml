@@ -81,7 +81,10 @@ jobs:
           if git diff --staged --quiet; then
             echo "App repo already up to date."
           else
-            # [skip ci] so the private repo does not spend the minutes it lacks.
-            git commit -m "chore: sync new precon decks from commander-codex-build [skip ci]"
+            # Deliberately NO [skip ci] — see the note in refresh-data.yml.
+            # The app bundles this JSON at build time, and Vercel honours
+            # [skip ci], so the marker stopped new decks from reaching the
+            # site until an unrelated deploy happened to pick them up.
+            git commit -m "chore: sync new precon decks from commander-codex-build"
             git push
           fi
