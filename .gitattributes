@@ -1,0 +1,10 @@
+# The scripts and workflows run on Linux runners. Pin them to LF so a Windows
+# checkout with core.autocrlf enabled cannot commit CRLF line endings, which
+# would break the workflows' bash `run:` blocks.
+*.mjs  text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
+*.json text eol=lf

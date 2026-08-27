@@ -1,0 +1,87 @@
+# Auto-discovers newly released preconstructed Commander decks from MTGJSON and,
+# when the deck list actually changed, regenerates the derived data (card lists,
+# analysis, keywords, insights, commander art), commits it here, then syncs the
+# generated JSON into the private app repo. New decks appear the next time the
+# app is built. Runs daily; no-ops on days with no new deck, so history stays
+# clean.
+#
+# Runs in this PUBLIC repo because Actions minutes are free and unlimited here.
+# No API keys — MTGJSON and Scryfall are public.
+name: deck-sync
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # daily 08:00 UTC — no-ops on days with no new deck
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deck-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Scripts resolve paths as __dirname/../src/data, so scripts/ and
+      # src/data/ must be siblings — which is this repo's layout.
+      - name: Discover new precons
+        run: node scripts/decks-sync.mjs
+
+      - name: Regenerate deck data (only if the list changed)
+        id: regen
+        run: |
+          if git diff --quiet -- src/data/decks.json; then
+            echo "No new decks — nothing to do."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "New decks found; regenerating derived data…"
+          node scripts/decklists.mjs
+          node scripts/enrich.mjs
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit changes here
+        if: steps.regen.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          if git diff --staged --quiet; then
+            echo "Nothing staged."
+          else
+            git commit -m "chore: sync new precon decks"
+            git push
+          fi
+
+      - name: Sync generated JSON into the private app repo
+        if: steps.regen.outputs.changed == 'true'
+        env:
+          TOKEN: ${{ secrets.REPO_SYNC_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "REPO_SYNC_TOKEN not set — skipping app sync"
+            exit 0
+          fi
+          git clone --depth 1 "https://x-access-token:$TOKEN@github.com/jande425/commander-decks.git" app-repo
+          # Only the generated JSON. src/data/decks.ts is hand-written app code
+          # (a types wrapper around decks.json) and must never be overwritten.
+          cp src/data/*.json app-repo/commander-codex/src/data/
+          cd app-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add commander-codex/src/data
+          if git diff --staged --quiet; then
+            echo "App repo already up to date."
+          else
+            # [skip ci] so the private repo does not spend the minutes it lacks.
+            git commit -m "chore: sync new precon decks from commander-codex-build [skip ci]"
+            git push
+          fi

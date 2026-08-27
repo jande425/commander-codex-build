@@ -1,0 +1,50 @@
+# Daily card-data snapshot. Builds Scryfall-derived card JSON and publishes it
+# to the separate PUBLIC data repo (jande425/commander-codex-data) so the app
+# can read it over a free CDN.
+#
+# This build used to run in the private app repo, which hit its monthly Actions
+# minute limit and had every run refused before a single step executed. It runs
+# here instead, where minutes are free and unlimited.
+#
+# Unlike the other two workflows this one writes to data-dist/, not src/data/,
+# so there is nothing to sync back into the app repo.
+#
+# Output URLs:
+#   Pages:    https://jande425.github.io/commander-codex-data/sets.json
+#   jsDelivr: https://cdn.jsdelivr.net/gh/jande425/commander-codex-data@main/sets.json
+#             .../set/<code>.json
+name: card-data-snapshot
+
+on:
+  schedule:
+    - cron: '17 9 * * *' # daily ~09:17 UTC (Scryfall regenerates bulk daily)
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: card-data-snapshot
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build snapshot
+        run: node scripts/cards.mjs
+
+      - name: Publish to public data repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.REPO_SYNC_TOKEN }}
+          external_repository: jande425/commander-codex-data
+          publish_branch: main
+          publish_dir: data-dist
+          force_orphan: true # single-commit history so daily snapshots don't bloat the repo
+          commit_message: 'chore: daily card-data snapshot'

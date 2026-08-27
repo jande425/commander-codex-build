@@ -1,0 +1,87 @@
+name: Refresh bundled data
+
+# Rebuilds decklists / set names / upgrades / combos / prices from MTGJSON,
+# Scryfall, EDHREC and Commander Spellbook, commits the result here, then syncs
+# the generated JSON into the private app repo.
+#
+# This lives in a PUBLIC repo because GitHub Actions minutes are free and
+# unlimited here; the private app repo hit its monthly limit and had every run
+# refused before a single step executed.
+#
+# The data scripts use only Node built-ins + global fetch, so there is no
+# dependency install step. Every upstream source is public — no API keys.
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily 06:00 UTC — keeps prices ~a day fresh
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Scripts resolve paths as __dirname/../src/data, so they must be run
+      # with scripts/ and src/data/ as siblings — which is this repo's layout.
+      - name: Rebuild decklists (also populates the deck cache)
+        run: node scripts/decklists.mjs
+
+      - name: Rebuild set names
+        run: node scripts/setnames.mjs
+
+      - name: Rebuild upgrades (EDHREC)
+        run: node scripts/upgrades.mjs
+
+      - name: Rebuild combos (Commander Spellbook)
+        run: node scripts/combos.mjs
+
+      - name: Rebuild prices
+        run: node --max-old-space-size=2048 scripts/prices.mjs
+
+      - name: Commit changes here
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: refresh bundled data"
+            git push
+          fi
+
+      - name: Sync generated JSON into the private app repo
+        env:
+          TOKEN: ${{ secrets.REPO_SYNC_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "REPO_SYNC_TOKEN not set — skipping app sync"
+            exit 0
+          fi
+          git clone --depth 1 "https://x-access-token:$TOKEN@github.com/jande425/commander-decks.git" app-repo
+          # Only the generated JSON. src/data/decks.ts is hand-written app code
+          # (a types wrapper around decks.json) and must never be overwritten.
+          cp src/data/*.json app-repo/commander-codex/src/data/
+          cd app-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add commander-codex/src/data
+          if git diff --staged --quiet; then
+            echo "App repo already up to date."
+          else
+            # [skip ci] so the private repo does not spend the minutes it lacks.
+            git commit -m "chore: sync bundled data from commander-codex-build [skip ci]"
+            git push
+          fi

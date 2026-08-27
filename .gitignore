@@ -1,0 +1,11 @@
+# Script download caches. Scripts resolve these as __dirname/../.cache, so they
+# land at the repo root. Regenerated on demand — never committed.
+.cache/
+
+# Build output for the card-data snapshot, published to the separate public
+# data repo (jande425/commander-codex-data) rather than committed here.
+data-dist/
+
+# Node
+node_modules/
+npm-debug.log*
