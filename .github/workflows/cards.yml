@@ -13,6 +13,7 @@
 #   Pages:    https://jande425.github.io/commander-codex-data/sets.json
 #   jsDelivr: https://cdn.jsdelivr.net/gh/jande425/commander-codex-data@main/sets.json
 #             .../set/<code>.json
+#             .../price/<xx>.json   90-day price history, sharded by scryfallId
 name: card-data-snapshot
 
 on:
@@ -30,6 +31,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -38,6 +40,12 @@ jobs:
 
       - name: Build snapshot
         run: node scripts/cards.mjs
+
+      # Must run in THIS job: publish_dir is replaced wholesale (force_orphan),
+      # so anything not built here would be dropped from the data repo.
+      # Streams ~376 MB of MTGJSON bulk, so it is much slower than the snapshot.
+      - name: Build price history
+        run: node --max-old-space-size=4096 scripts/pricehistory.mjs
 
       - name: Publish to public data repo
         uses: peaceiris/actions-gh-pages@v4
