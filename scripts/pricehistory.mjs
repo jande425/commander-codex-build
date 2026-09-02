@@ -7,7 +7,14 @@
 // Output (data-dist/price/, published by .github/workflows/cards.yml alongside
 // the card snapshot):
 //   price/meta.json     build date, provider, axis
-//   price/<xx>.json     printings whose scryfallId starts with <xx> (256 shards)
+//   price/<xxx>.json    every printing of the cards whose oracleId starts <xxx>
+//   price/now.json      TODAY's price per printing across every source — one
+//                       ~3 MB gzipped file the whole app can hold in memory, so
+//                       the gallery, the collection total and the set browser
+//                       price per printing instead of falling back to Scryfall's
+//                       TCGplayer-only figure (which cannot honour a Card
+//                       Kingdom preference at all). Shards stay the source for
+//                       charts; a card grid cannot fetch one per card.
 //
 // Sources:
 //   AllIdentifiers (~229 MB gz)  uuid -> scryfallId + oracleId, every printing
@@ -240,6 +247,29 @@ export function ckByPrinting(rows) {
   return out;
 }
 
+/** Latest non-null value of a sampled series. */
+const lastOf = (series) => (Array.isArray(series) ? series.filter((v) => v != null).pop() : undefined);
+
+/** Today's price for one printing across every source, compacted for `now.json`.
+ *  Live Card Kingdom wins over the MTGJSON series: it is fresher and covers far
+ *  more printings. Returns null when nothing at all is known. */
+export function nowRow(row) {
+  const ck = row.ck_ ?? {};
+  const out = {};
+  const put = (k, v) => {
+    if (v != null) out[k] = v;
+  };
+  put('u', lastOf(row.usd));
+  put('uf', lastOf(row.usdf));
+  put('c', ck.r ?? lastOf(row.ck));
+  put('cf', ck.rf ?? lastOf(row.ckf));
+  put('e', lastOf(row.eur));
+  put('ef', lastOf(row.eurf));
+  put('b', ck.b ?? lastOf(row.ckb));
+  put('bf', ck.bf ?? lastOf(row.ckbf));
+  return Object.keys(out).length ? out : null;
+}
+
 /** Shard an ORACLE id lands in — every printing of a card shares one. */
 export const shardOf = (oracleId) => oracleId.slice(0, SHARD).toLowerCase();
 
@@ -361,8 +391,27 @@ export async function build() {
     })
   );
 
-  const bytes = readdirSync(outDir).reduce((n, f) => n + statSync(resolve(outDir, f)).size, 0);
-  const biggest = Math.max(...readdirSync(outDir).map((f) => statSync(resolve(outDir, f)).size));
+  // Flat current-price index, for every screen that shows many cards at once.
+  const now = {};
+  let nowCount = 0;
+  for (const bucket of shards.values()) {
+    for (const [sId, row] of Object.entries(bucket)) {
+      const r = nowRow(row);
+      if (r) {
+        now[sId] = r;
+        nowCount++;
+      }
+    }
+  }
+  writeFileSync(resolve(outDir, 'now.json'), JSON.stringify({ date: metaDate, p: now }));
+  console.log(`Wrote now.json: ${nowCount.toLocaleString()} printings (${(statSync(resolve(outDir, 'now.json')).size / 1024 / 1024).toFixed(1)} MB raw)`);
+
+  // Stats over the SHARDS only — now.json is an order of magnitude larger and
+  // was making "largest shard" read as 9.7 MB when no shard exceeds a fraction
+  // of that.
+  const shardFiles = readdirSync(outDir).filter((f) => f !== 'meta.json' && f !== 'now.json');
+  const bytes = shardFiles.reduce((n, f) => n + statSync(resolve(outDir, f)).size, 0);
+  const biggest = Math.max(...shardFiles.map((f) => statSync(resolve(outDir, f)).size));
   console.log(`Scanned ${scanned.toLocaleString()} priced printings.`);
   for (const { key } of PROVIDERS) {
     const n = perProvider[key] ?? 0;
