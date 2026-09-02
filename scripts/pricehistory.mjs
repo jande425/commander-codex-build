@@ -11,8 +11,13 @@
 //
 // Sources, both MIT-licensed MTGJSON bulk files, both streamed and scanned
 // incrementally because neither fits in memory as parsed JSON:
-//   AllIdentifiers (~229 MB gz)  uuid -> scryfallId, for every printing
+//   AllIdentifiers (~229 MB gz)  uuid -> scryfallId + oracleId, every printing
 //   AllPrices      (~147 MB gz)  90 days of daily prices, keyed by uuid
+//
+// Sharded by ORACLE id, not scryfallId: the detail sheet always wants every
+// printing of one card at once (the price, the chart and the printings grid all
+// read it), so one fetch serves the whole screen. Sharding by scryfallId would
+// scatter a card's printings across dozens of files.
 //
 // An earlier version keyed off the precon deck cache, which covered only the
 // 12.7k printings in official Commander decks — so a Secret Lair or Masters
@@ -35,12 +40,20 @@ const URL_IDS = 'https://mtgjson.com/api/v5/AllIdentifiers.json.gz';
 // enough that a shard stays in the tens of kilobytes.
 const DAYS = 90;
 const STEP = 3;
-// First provider with a usable retail series wins. Both quote USD, so the app
-// converts once with the user's rates.
-const PROVIDERS = ['tcgplayer', 'cardkingdom'];
-const BASE = 'USD';
-/** Shard key length in hex chars: 2 -> 256 shards. */
-const SHARD = 2;
+// Every provider the app can be set to prefer, keyed by the same ProviderKey
+// src/lib/prices.ts uses so the client can honour the user's ordering directly.
+// `base` is the currency the provider quotes in; the app converts once.
+const PROVIDERS = [
+  { key: 'usd', provider: 'tcgplayer', kind: 'retail', base: 'USD' },
+  { key: 'ck', provider: 'cardkingdom', kind: 'retail', base: 'USD' },
+  { key: 'eur', provider: 'cardmarket', kind: 'retail', base: 'EUR' },
+  { key: 'ckb', provider: 'cardkingdom', kind: 'buylist', base: 'USD' },
+];
+/** Shard key length in hex chars: 3 -> 4096 shards. Must match SHARD in
+ *  src/lib/priceHistory.ts; meta.json records it so a mismatch is diagnosable.
+ *  Two chars put 200 KB in the average shard and 655 KB in the worst, which is
+ *  a lot to pull just to open one card. */
+const SHARD = 3;
 
 const round = (v) => Math.round(Number(v) * 100) / 100;
 
@@ -123,19 +136,32 @@ export function buildAxis(endDate) {
   return out;
 }
 
-/** The retail date->price map for the best available provider. Prefers the
- *  normal printing, falling back to foil and then etched — some printings exist
- *  in only one finish (Commander Masters etched, say), and that finish's price
- *  is then the card's price. Mirrors the foil fallback in src/lib/prices.ts. */
-export function pickSeries(paper) {
+/** One provider's date->price map. Prefers the normal printing, falling back to
+ *  foil and then etched — some printings exist in only one finish (Commander
+ *  Masters etched, say), and that finish's price is then the card's price.
+ *  Mirrors the foil fallback in src/lib/prices.ts. */
+export function pickSeries(paper, provider = 'tcgplayer', kind = 'retail') {
+  const byKind = paper?.[provider]?.[kind];
+  if (!byKind) return null;
+  const s = byKind.normal ?? byKind.foil ?? byKind.etched;
+  return s && Object.keys(s).length ? s : null;
+}
+
+/** Every provider's sampled series for one printing, keyed by ProviderKey.
+ *  Returns null when no provider has anything chartable. */
+export function seriesByProvider(paper, axis) {
   if (!paper) return null;
-  for (const name of PROVIDERS) {
-    const retail = paper[name]?.retail;
-    if (!retail) continue;
-    const s = retail.normal ?? retail.foil ?? retail.etched;
-    if (s && Object.keys(s).length) return s;
+  const out = {};
+  let any = false;
+  for (const { key, provider, kind } of PROVIDERS) {
+    const raw = pickSeries(paper, provider, kind);
+    if (!raw) continue;
+    const s = sample(raw, axis);
+    if (!s) continue;
+    out[key] = s;
+    any = true;
   }
-  return null;
+  return any ? out : null;
 }
 
 /** Sample `series` onto `axis`, carrying the last known price across gaps.
@@ -165,14 +191,15 @@ export function sample(series, axis) {
  *  wrong card. */
 export function pickScryfallId(text) {
   try {
-    return JSON.parse(text)?.identifiers?.scryfallId ?? null;
+    const ids = JSON.parse(text)?.identifiers;
+    return ids?.scryfallId ? { id: ids.scryfallId, oracle: ids.scryfallOracleId ?? null } : null;
   } catch {
     return null;
   }
 }
 
-/** Shard a scryfallId lands in. */
-export const shardOf = (scryfallId) => scryfallId.slice(0, SHARD).toLowerCase();
+/** Shard an ORACLE id lands in — every printing of a card shares one. */
+export const shardOf = (oracleId) => oracleId.slice(0, SHARD).toLowerCase();
 
 async function gunzipped(url, label) {
   console.log(`Streaming ${label}…`);
@@ -191,8 +218,8 @@ export async function build() {
   let seenIds = 0;
   for await (const [uuid, text] of streamDataEntries(ids)) {
     seenIds++;
-    const sId = pickScryfallId(text);
-    if (sId) uuid2s.set(uuid, sId);
+    const rec = pickScryfallId(text);
+    if (rec?.oracle) uuid2s.set(uuid, rec);
     if (seenIds % 40000 === 0) console.log(`  identifiers ${seenIds.toLocaleString()} · mapped ${uuid2s.size.toLocaleString()}`);
   }
   console.log(`${uuid2s.size.toLocaleString()} uuid -> scryfallId mappings (of ${seenIds.toLocaleString()} printings).`);
@@ -205,36 +232,35 @@ export async function build() {
     metaDate = (String(c).match(/"date"\s*:\s*"(\d{4}-\d{2}-\d{2})"/) || [])[1] ?? null;
   });
 
-  const shards = new Map(); // shard key -> { [scryfallId]: number[] }
+  const shards = new Map(); // shard key -> { [scryfallId]: { [providerKey]: number[] } }
   let scanned = 0;
   let kept = 0;
-  let axis = null;
+  let axis = buildAxis(metaDate ?? new Date().toISOString().slice(0, 10));
+  const perProvider = {};
   for await (const [uuid, text] of streamDataEntries(prices)) {
     scanned++;
     if (scanned % 20000 === 0) console.log(`  prices ${scanned.toLocaleString()} · kept ${kept.toLocaleString()}`);
-    const sId = uuid2s.get(uuid);
-    if (!sId) continue;
+    const rec = uuid2s.get(uuid);
+    if (!rec) continue;
     let v;
     try {
       v = JSON.parse(text);
     } catch {
       continue;
     }
-    const series = pickSeries(v.paper);
-    if (!series) continue;
-    axis ??= buildAxis(metaDate ?? Object.keys(series).sort().pop());
-    const s = sample(series, axis);
-    if (!s) continue;
-    const key = shardOf(sId);
+    const byProv = seriesByProvider(v.paper, axis);
+    if (!byProv) continue;
+    const key = shardOf(rec.oracle);
     let bucket = shards.get(key);
     if (!bucket) shards.set(key, (bucket = {}));
     // A scryfallId is one printing, so a later duplicate would be the same card.
-    if (bucket[sId]) continue;
-    bucket[sId] = s;
+    if (bucket[rec.id]) continue;
+    bucket[rec.id] = byProv;
+    for (const k of Object.keys(byProv)) perProvider[k] = (perProvider[k] ?? 0) + 1;
     kept++;
   }
 
-  if (!axis) throw new Error('No usable price series found — did the AllPrices format change?');
+  if (!kept) throw new Error('No usable price series found — did the AllPrices format change?');
 
   // 3. Write the shards.
   if (existsSync(outDir)) rmSync(outDir, { recursive: true, force: true });
@@ -246,13 +272,14 @@ export async function build() {
     resolve(outDir, 'meta.json'),
     JSON.stringify({
       date: metaDate,
-      provider: PROVIDERS[0],
-      base: BASE,
+
       step: STEP,
       days: DAYS,
       shard: SHARD,
+      shardedBy: 'oracleId',
       shards: shards.size,
       count: kept,
+      providers: PROVIDERS.map((p) => ({ key: p.key, base: p.base })),
       source: 'MTGJSON AllPrices',
     })
   );
@@ -260,6 +287,10 @@ export async function build() {
   const bytes = readdirSync(outDir).reduce((n, f) => n + statSync(resolve(outDir, f)).size, 0);
   const biggest = Math.max(...readdirSync(outDir).map((f) => statSync(resolve(outDir, f)).size));
   console.log(`Scanned ${scanned.toLocaleString()} priced printings.`);
+  for (const { key } of PROVIDERS) {
+    const n = perProvider[key] ?? 0;
+    console.log(`  ${key.padEnd(4)} ${String(n).padStart(7)} printings (${Math.round((n / kept) * 100)}%)`);
+  }
   console.log(
     `Wrote ${kept.toLocaleString()} series × ${axis.length} points -> ${shards.size} shards ` +
       `(${(bytes / 1024 / 1024).toFixed(1)} MB total, largest ${(biggest / 1024).toFixed(0)} KB)`
