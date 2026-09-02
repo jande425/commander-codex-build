@@ -9,10 +9,17 @@
 //   price/meta.json     build date, provider, axis
 //   price/<xx>.json     printings whose scryfallId starts with <xx> (256 shards)
 //
-// Sources, both MIT-licensed MTGJSON bulk files, both streamed and scanned
-// incrementally because neither fits in memory as parsed JSON:
+// Sources:
 //   AllIdentifiers (~229 MB gz)  uuid -> scryfallId + oracleId, every printing
 //   AllPrices      (~147 MB gz)  90 days of daily prices, keyed by uuid
+//   Card Kingdom pricelist (~46 MB)  today's CK retail/buylist, stock and the
+//     exact product URL, keyed directly by scryfall_id. A deliberately public,
+//     CORS-open API (robots.txt disallows nothing). MTGJSON only carries Card
+//     Kingdom for ~60% of printings, so this roughly doubles CK coverage and
+//     removes the URL-slug guessing that soft-404s on The List and Secret Lair.
+//
+// The two MTGJSON files are streamed and scanned incrementally because neither
+// fits in memory as parsed JSON.
 //
 // Sharded by ORACLE id, not scryfallId: the detail sheet always wants every
 // printing of one card at once (the price, the chart and the printings grid all
@@ -35,6 +42,7 @@ const outDir = resolve(__dirname, '..', 'data-dist', 'price');
 const HEADERS = { 'User-Agent': 'CommanderCodex/0.1 (deck browser)' };
 const URL_PRICES = 'https://mtgjson.com/api/v5/AllPrices.json.gz';
 const URL_IDS = 'https://mtgjson.com/api/v5/AllIdentifiers.json.gz';
+const URL_CK = 'https://api.cardkingdom.com/api/pricelist';
 
 // 90 days sampled every 3rd day = 30 points: enough for a sparkline, small
 // enough that a shard stays in the tens of kilobytes.
@@ -203,6 +211,35 @@ export function pickScryfallId(text) {
   }
 }
 
+/** Today's Card Kingdom listing for each printing, keyed by scryfallId.
+ *  Nonfoil and foil are separate rows in the feed, folded into one record:
+ *    u  product path      r/rf  retail price     q/qf  retail stock
+ *                         b/bf  buylist price
+ *  `null` fields are dropped so the shards stay lean. */
+export function ckByPrinting(rows) {
+  const out = new Map();
+  const num = (v) => {
+    const n = Number(v);
+    return Number.isFinite(n) && n > 0 ? n : undefined;
+  };
+  for (const r of rows ?? []) {
+    const id = r.scryfall_id;
+    if (!id) continue;
+    let rec = out.get(id);
+    if (!rec) out.set(id, (rec = {}));
+    // Every row for a printing shares the product page; keep the first seen.
+    if (!rec.u && r.url) rec.u = r.url;
+    const foil = r.is_foil === 'true' || r.is_foil === true;
+    const retail = num(r.price_retail);
+    const buy = num(r.price_buy);
+    const qty = Number.isFinite(Number(r.qty_retail)) ? Number(r.qty_retail) : undefined;
+    if (retail !== undefined) rec[foil ? 'rf' : 'r'] = retail;
+    if (buy !== undefined) rec[foil ? 'bf' : 'b'] = buy;
+    if (qty !== undefined) rec[foil ? 'qf' : 'q'] = qty;
+  }
+  return out;
+}
+
 /** Shard an ORACLE id lands in — every printing of a card shares one. */
 export const shardOf = (oracleId) => oracleId.slice(0, SHARD).toLowerCase();
 
@@ -220,11 +257,15 @@ export async function build() {
   // 1. uuid -> scryfallId for every printing.
   const ids = await gunzipped(URL_IDS, 'MTGJSON AllIdentifiers (~229 MB)');
   const uuid2s = new Map();
+  const sId2oracle = new Map();
   let seenIds = 0;
   for await (const [uuid, text] of streamDataEntries(ids)) {
     seenIds++;
     const rec = pickScryfallId(text);
-    if (rec?.oracle) uuid2s.set(uuid, rec);
+    if (rec?.oracle) {
+      uuid2s.set(uuid, rec);
+      sId2oracle.set(rec.id, rec.oracle);
+    }
     if (seenIds % 40000 === 0) console.log(`  identifiers ${seenIds.toLocaleString()} · mapped ${uuid2s.size.toLocaleString()}`);
   }
   console.log(`${uuid2s.size.toLocaleString()} uuid -> scryfallId mappings (of ${seenIds.toLocaleString()} printings).`);
@@ -237,7 +278,14 @@ export async function build() {
     metaDate = (String(c).match(/"date"\s*:\s*"(\d{4}-\d{2}-\d{2})"/) || [])[1] ?? null;
   });
 
-  const shards = new Map(); // shard key -> { [scryfallId]: { [providerKey]: number[] } }
+  const shards = new Map(); // shard key -> { [scryfallId]: { …series, ck?: {…} } }
+  /** Row for one printing, created on first use. */
+  const rowFor = (sId, oracle) => {
+    const key = shardOf(oracle);
+    let bucket = shards.get(key);
+    if (!bucket) shards.set(key, (bucket = {}));
+    return (bucket[sId] ??= {});
+  };
   let scanned = 0;
   let kept = 0;
   let axis = buildAxis(metaDate ?? new Date().toISOString().slice(0, 10));
@@ -255,19 +303,42 @@ export async function build() {
     }
     const byProv = seriesByProvider(v.paper, axis);
     if (!byProv) continue;
-    const key = shardOf(rec.oracle);
-    let bucket = shards.get(key);
-    if (!bucket) shards.set(key, (bucket = {}));
+    const row = rowFor(rec.id, rec.oracle);
     // A scryfallId is one printing, so a later duplicate would be the same card.
-    if (bucket[rec.id]) continue;
-    bucket[rec.id] = byProv;
+    if (Object.keys(row).length) continue;
+    Object.assign(row, byProv);
     for (const k of Object.keys(byProv)) perProvider[k] = (perProvider[k] ?? 0) + 1;
     kept++;
   }
 
+  // 3. Today's Card Kingdom listing, merged onto whatever the history produced.
+  //    Adds printings MTGJSON has no Card Kingdom row for at all, so this is a
+  //    coverage step as much as a freshness one.
+  console.log('Fetching the Card Kingdom pricelist (~46 MB)…');
+  let ckAdded = 0;
+  let ckNewPrintings = 0;
+  try {
+    const r = await fetch(URL_CK, { headers: HEADERS });
+    if (!r.ok) throw new Error(`status ${r.status}`);
+    const ck = ckByPrinting((await r.json()).data);
+    for (const [sId, rec] of ck) {
+      const oracle = sId2oracle.get(sId);
+      if (!oracle) continue; // a printing MTGJSON does not know
+      const row = rowFor(sId, oracle);
+      if (!Object.keys(row).length) ckNewPrintings++;
+      row.ck_ = rec;
+      ckAdded++;
+    }
+    console.log(`  Card Kingdom: ${ckAdded.toLocaleString()} printings (${ckNewPrintings.toLocaleString()} with no MTGJSON history at all)`);
+  } catch (e) {
+    // Never fail the whole build over one optional source — the history is the
+    // part the charts need.
+    console.warn(`  Card Kingdom pricelist unavailable (${e.message}) — continuing without it.`);
+  }
+
   if (!kept) throw new Error('No usable price series found — did the AllPrices format change?');
 
-  // 3. Write the shards.
+  // 4. Write the shards.
   if (existsSync(outDir)) rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
   for (const [key, bucket] of shards) {
@@ -284,6 +355,7 @@ export async function build() {
       shardedBy: 'oracleId',
       shards: shards.size,
       count: kept,
+      cardKingdomLive: ckAdded,
       providers: PROVIDERS.map((p) => ({ key: p.key, base: p.base })),
       source: 'MTGJSON AllPrices',
     })
