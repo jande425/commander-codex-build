@@ -136,30 +136,35 @@ export function buildAxis(endDate) {
   return out;
 }
 
-/** One provider's date->price map. Prefers the normal printing, falling back to
- *  foil and then etched — some printings exist in only one finish (Commander
- *  Masters etched, say), and that finish's price is then the card's price.
- *  Mirrors the foil fallback in src/lib/prices.ts. */
-export function pickSeries(paper, provider = 'tcgplayer', kind = 'retail') {
+/** One provider's date->price map for one finish.
+ *
+ *  'nonfoil' falls back to foil/etched so a printing that only exists foil (some
+ *  Commander Masters cards) still has a price, matching src/lib/prices.ts.
+ *  'foil' does NOT fall back to nonfoil — the foil toggle must not quietly show
+ *  the nonfoil price and call it foil; absent means absent. */
+export function pickSeries(paper, provider = 'tcgplayer', kind = 'retail', finish = 'nonfoil') {
   const byKind = paper?.[provider]?.[kind];
   if (!byKind) return null;
-  const s = byKind.normal ?? byKind.foil ?? byKind.etched;
+  const s = finish === 'foil' ? byKind.foil ?? byKind.etched : byKind.normal ?? byKind.foil ?? byKind.etched;
   return s && Object.keys(s).length ? s : null;
 }
 
-/** Every provider's sampled series for one printing, keyed by ProviderKey.
- *  Returns null when no provider has anything chartable. */
+/** Every provider's sampled series for one printing, keyed by ProviderKey, with
+ *  the foil finish under a trailing "f" — the same naming prices.json uses
+ *  (usd/usdf, ck/ckf…). Returns null when nothing is chartable. */
 export function seriesByProvider(paper, axis) {
   if (!paper) return null;
   const out = {};
   let any = false;
   for (const { key, provider, kind } of PROVIDERS) {
-    const raw = pickSeries(paper, provider, kind);
-    if (!raw) continue;
-    const s = sample(raw, axis);
-    if (!s) continue;
-    out[key] = s;
-    any = true;
+    for (const finish of ['nonfoil', 'foil']) {
+      const raw = pickSeries(paper, provider, kind, finish);
+      if (!raw) continue;
+      const s = sample(raw, axis);
+      if (!s) continue;
+      out[finish === 'foil' ? `${key}f` : key] = s;
+      any = true;
+    }
   }
   return any ? out : null;
 }
