@@ -21,13 +21,13 @@
         "typeLine": "Legendary Creature — Human Cleric",
         "cmc": 4,
         "manaCost": "{1}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1717013745",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1717013745",
-        "priceUsd": 2.57,
+        "image": "https://cards.scryfall.io/normal/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1783911211",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1783911211",
+        "priceUsd": 4.76,
         "scryfallUri": "https://scryfall.com/card/mh3/290/kaalia-of-the-vast?utm_source=api"
       }
     ],
-    "priceUsd": 2.57
+    "priceUsd": 4.76
   },
   "CMD-mirror-mastery": {
     "colorIdentity": [
@@ -51,13 +51,13 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 5,
         "manaCost": "{2}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/7/0/70dd138f-391a-4956-bc2a-fe186429c71a.jpg?1599708286",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/0/70dd138f-391a-4956-bc2a-fe186429c71a.jpg?1599708286",
-        "priceUsd": 6.03,
+        "image": "https://cards.scryfall.io/normal/front/7/0/70dd138f-391a-4956-bc2a-fe186429c71a.jpg?1783930128",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/0/70dd138f-391a-4956-bc2a-fe186429c71a.jpg?1783930128",
+        "priceUsd": 6.38,
         "scryfallUri": "https://scryfall.com/card/2xm/214/riku-of-two-reflections?utm_source=api"
       }
     ],
-    "priceUsd": 6.03
+    "priceUsd": 6.38
   },
   "CMD-counterpunch": {
     "colorIdentity": [
@@ -81,13 +81,13 @@
         "typeLine": "Legendary Creature — Fungus Shaman",
         "cmc": 5,
         "manaCost": "{2}{W}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1673148645",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1673148645",
-        "priceUsd": 1.06,
+        "image": "https://cards.scryfall.io/normal/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1783921836",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1783921836",
+        "priceUsd": 1.25,
         "scryfallUri": "https://scryfall.com/card/2x2/216/ghave-guru-of-spores?utm_source=api"
       }
     ],
-    "priceUsd": 1.06
+    "priceUsd": 1.25
   },
   "CMD-political-puppets": {
     "colorIdentity": [
@@ -111,13 +111,13 @@
         "typeLine": "Legendary Creature — Minotaur Monk",
         "cmc": 4,
         "manaCost": "{1}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/e/9/e9ea2a6b-5aaf-4178-b945-f409fe83c41a.jpg?1562424565",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/9/e9ea2a6b-5aaf-4178-b945-f409fe83c41a.jpg?1562424565",
-        "priceUsd": 2.34,
+        "image": "https://cards.scryfall.io/normal/front/e/9/e9ea2a6b-5aaf-4178-b945-f409fe83c41a.jpg?1783937042",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/9/e9ea2a6b-5aaf-4178-b945-f409fe83c41a.jpg?1783937042",
+        "priceUsd": 2.37,
         "scryfallUri": "https://scryfall.com/card/c16/231/zedruu-the-greathearted?utm_source=api"
       }
     ],
-    "priceUsd": 2.34
+    "priceUsd": 2.37
   },
   "CMD-devour-for-power": {
     "colorIdentity": [
@@ -140,13 +140,13 @@
         "typeLine": "Legendary Creature — Ooze",
         "cmc": 5,
         "manaCost": "{2}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/9/9/998b86f3-e53f-4ebb-b111-6f14577fded1.jpg?1712354748",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/9/998b86f3-e53f-4ebb-b111-6f14577fded1.jpg?1712354748",
-        "priceUsd": 0.28,
+        "image": "https://cards.scryfall.io/normal/front/9/9/998b86f3-e53f-4ebb-b111-6f14577fded1.jpg?1783911897",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/9/998b86f3-e53f-4ebb-b111-6f14577fded1.jpg?1783911897",
+        "priceUsd": 0.22,
         "scryfallUri": "https://scryfall.com/card/otc/234/the-mimeoplasm?utm_source=api"
       }
     ],
-    "priceUsd": 0.28
+    "priceUsd": 0.22
   },
   "C13-eternal-bargain": {
     "colorIdentity": [
@@ -170,13 +170,13 @@
         "typeLine": "Legendary Creature — Giant Soldier",
         "cmc": 6,
         "manaCost": "{3}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/a/b/abf8df47-405c-42d8-be9e-0f0d0a49589b.jpg?1562931285",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/abf8df47-405c-42d8-be9e-0f0d0a49589b.jpg?1562931285",
-        "priceUsd": 20.37,
+        "image": "https://cards.scryfall.io/normal/front/a/b/abf8df47-405c-42d8-be9e-0f0d0a49589b.jpg?1783939648",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/abf8df47-405c-42d8-be9e-0f0d0a49589b.jpg?1783939648",
+        "priceUsd": 19.19,
         "scryfallUri": "https://scryfall.com/card/c13/203/oloro-ageless-ascetic?utm_source=api"
       }
     ],
-    "priceUsd": 20.37
+    "priceUsd": 19.19
   },
   "C13-evasive-maneuvers": {
     "colorIdentity": [
@@ -200,8 +200,8 @@
         "typeLine": "Legendary Creature — Bird Wizard",
         "cmc": 3,
         "manaCost": "{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/3/a/3a1d0dad-18a8-489e-ac11-08f64b72fda4.jpg?1592673365",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/a/3a1d0dad-18a8-489e-ac11-08f64b72fda4.jpg?1592673365",
+        "image": "https://cards.scryfall.io/normal/front/3/a/3a1d0dad-18a8-489e-ac11-08f64b72fda4.jpg?1783936231",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/a/3a1d0dad-18a8-489e-ac11-08f64b72fda4.jpg?1783936231",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cma/176/derevi-empyrial-tactician?utm_source=api"
       }
@@ -230,13 +230,13 @@
         "typeLine": "Legendary Creature — Vampire Wizard",
         "cmc": 4,
         "manaCost": "{1}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/3/83f9aeb8-05ba-49d9-a834-62f42fcd295b.jpg?1562922860",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/83f9aeb8-05ba-49d9-a834-62f42fcd295b.jpg?1562922860",
-        "priceUsd": 1.77,
+        "image": "https://cards.scryfall.io/normal/front/8/3/83f9aeb8-05ba-49d9-a834-62f42fcd295b.jpg?1783939650",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/83f9aeb8-05ba-49d9-a834-62f42fcd295b.jpg?1783939650",
+        "priceUsd": 2.91,
         "scryfallUri": "https://scryfall.com/card/c13/194/jeleva-nephalias-scourge?utm_source=api"
       }
     ],
-    "priceUsd": 1.77
+    "priceUsd": 2.91
   },
   "C13-nature-of-the-beast": {
     "colorIdentity": [
@@ -260,13 +260,13 @@
         "typeLine": "Legendary Creature — Elemental Beast",
         "cmc": 3,
         "manaCost": "{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/5/7/57afa796-db46-45ff-91bd-f02922e5f33d.jpg?1665156235",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/7/57afa796-db46-45ff-91bd-f02922e5f33d.jpg?1665156235",
-        "priceUsd": 0.74,
+        "image": "https://cards.scryfall.io/normal/front/5/7/57afa796-db46-45ff-91bd-f02922e5f33d.jpg?1783939649",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/7/57afa796-db46-45ff-91bd-f02922e5f33d.jpg?1783939649",
+        "priceUsd": 0.71,
         "scryfallUri": "https://scryfall.com/card/c13/198/marath-will-of-the-wild?utm_source=api"
       }
     ],
-    "priceUsd": 0.74
+    "priceUsd": 0.71
   },
   "C13-power-hungry": {
     "colorIdentity": [
@@ -289,13 +289,13 @@
         "typeLine": "Legendary Creature — Dragon",
         "cmc": 6,
         "manaCost": "{3}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/8/8/889c1a0f-7df2-4497-8058-04358173d7e8.jpg?1562438016",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/8/889c1a0f-7df2-4497-8058-04358173d7e8.jpg?1562438016",
-        "priceUsd": 0.47,
+        "image": "https://cards.scryfall.io/normal/front/8/8/889c1a0f-7df2-4497-8058-04358173d7e8.jpg?1783935112",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/8/889c1a0f-7df2-4497-8058-04358173d7e8.jpg?1783935112",
+        "priceUsd": 0.41,
         "scryfallUri": "https://scryfall.com/card/a25/214/prossh-skyraider-of-kher?utm_source=api"
       }
     ],
-    "priceUsd": 0.47
+    "priceUsd": 0.41
   },
   "C14-forged-in-stone": {
     "colorIdentity": [
@@ -314,13 +314,13 @@
         "typeLine": "Legendary Planeswalker — Nahiri",
         "cmc": 5,
         "manaCost": "{3}{W}{W}",
-        "image": "https://cards.scryfall.io/normal/front/b/0/b074e60a-6f9b-4679-9617-261e2e15e1e8.jpg?1689995897",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b074e60a-6f9b-4679-9617-261e2e15e1e8.jpg?1689995897",
-        "priceUsd": 0.86,
+        "image": "https://cards.scryfall.io/normal/front/b/0/b074e60a-6f9b-4679-9617-261e2e15e1e8.jpg?1783915716",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b074e60a-6f9b-4679-9617-261e2e15e1e8.jpg?1783915716",
+        "priceUsd": 1.07,
         "scryfallUri": "https://scryfall.com/card/cmm/45/nahiri-the-lithomancer?utm_source=api"
       }
     ],
-    "priceUsd": 0.86
+    "priceUsd": 1.07
   },
   "C14-peer-through-time": {
     "colorIdentity": [
@@ -339,13 +339,13 @@
         "typeLine": "Legendary Planeswalker — Teferi",
         "cmc": 6,
         "manaCost": "{4}{U}{U}",
-        "image": "https://cards.scryfall.io/normal/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1689996703",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1689996703",
-        "priceUsd": 0.9,
+        "image": "https://cards.scryfall.io/normal/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687",
+        "priceUsd": 1.4,
         "scryfallUri": "https://scryfall.com/card/cmm/125/teferi-temporal-archmage?utm_source=api"
       }
     ],
-    "priceUsd": 0.9
+    "priceUsd": 1.4
   },
   "C14-sworn-to-darkness": {
     "colorIdentity": [
@@ -364,13 +364,13 @@
         "typeLine": "Legendary Planeswalker — Nixilis",
         "cmc": 5,
         "manaCost": "{3}{B}{B}",
-        "image": "https://cards.scryfall.io/normal/front/f/b/fb4e4509-ffd8-4fd0-a678-19c9975d571b.jpg?1689997348",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/b/fb4e4509-ffd8-4fd0-a678-19c9975d571b.jpg?1689997348",
-        "priceUsd": 0.87,
+        "image": "https://cards.scryfall.io/normal/front/f/b/fb4e4509-ffd8-4fd0-a678-19c9975d571b.jpg?1783915669",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/b/fb4e4509-ffd8-4fd0-a678-19c9975d571b.jpg?1783915669",
+        "priceUsd": 0.79,
         "scryfallUri": "https://scryfall.com/card/cmm/176/ob-nixilis-of-the-black-oath?utm_source=api"
       }
     ],
-    "priceUsd": 0.87
+    "priceUsd": 0.79
   },
   "C14-built-from-scratch": {
     "colorIdentity": [
@@ -389,13 +389,13 @@
         "typeLine": "Legendary Planeswalker — Daretti",
         "cmc": 4,
         "manaCost": "{3}{R}",
-        "image": "https://cards.scryfall.io/normal/front/7/c/7cb9d4a0-66bd-454d-b676-80192a96c723.jpg?1689997720",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7cb9d4a0-66bd-454d-b676-80192a96c723.jpg?1689997720",
-        "priceUsd": 1.22,
+        "image": "https://cards.scryfall.io/normal/front/7/c/7cb9d4a0-66bd-454d-b676-80192a96c723.jpg?1783915656",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7cb9d4a0-66bd-454d-b676-80192a96c723.jpg?1783915656",
+        "priceUsd": 1.8,
         "scryfallUri": "https://scryfall.com/card/cmm/213/daretti-scrap-savant?utm_source=api"
       }
     ],
-    "priceUsd": 1.22
+    "priceUsd": 1.8
   },
   "C14-guided-by-nature": {
     "colorIdentity": [
@@ -414,13 +414,13 @@
         "typeLine": "Legendary Planeswalker — Freyalise",
         "cmc": 5,
         "manaCost": "{3}{G}{G}",
-        "image": "https://cards.scryfall.io/normal/front/5/2/52311be7-b484-4b14-a091-904c6b0c83d1.jpg?1689998532",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/2/52311be7-b484-4b14-a091-904c6b0c83d1.jpg?1689998532",
-        "priceUsd": 4.1,
+        "image": "https://cards.scryfall.io/normal/front/5/2/52311be7-b484-4b14-a091-904c6b0c83d1.jpg?1783915632",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/2/52311be7-b484-4b14-a091-904c6b0c83d1.jpg?1783915632",
+        "priceUsd": 4.32,
         "scryfallUri": "https://scryfall.com/card/cmm/290/freyalise-llanowars-fury?utm_source=api"
       }
     ],
-    "priceUsd": 4.1
+    "priceUsd": 4.32
   },
   "C15-call-the-spirits": {
     "colorIdentity": [
@@ -442,13 +442,13 @@
         "typeLine": "Legendary Creature — Zombie Soldier",
         "cmc": 3,
         "manaCost": "{1}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/4/a/4abe142e-7e87-464b-be2a-ad2fc7aebd51.jpg?1562703959",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4abe142e-7e87-464b-be2a-ad2fc7aebd51.jpg?1562703959",
-        "priceUsd": 21.19,
+        "image": "https://cards.scryfall.io/normal/front/4/a/4abe142e-7e87-464b-be2a-ad2fc7aebd51.jpg?1783938107",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4abe142e-7e87-464b-be2a-ad2fc7aebd51.jpg?1783938107",
+        "priceUsd": 15.87,
         "scryfallUri": "https://scryfall.com/card/c15/43/daxos-the-returned?utm_source=api"
       }
     ],
-    "priceUsd": 21.19
+    "priceUsd": 15.87
   },
   "C15-seize-control": {
     "colorIdentity": [
@@ -470,13 +470,13 @@
         "typeLine": "Legendary Creature — Goblin Wizard",
         "cmc": 4,
         "manaCost": "{2}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/2/82f949d0-41a0-4491-9057-bfb2bb20bdb3.jpg?1689999174",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/2/82f949d0-41a0-4491-9057-bfb2bb20bdb3.jpg?1689999174",
-        "priceUsd": 0.74,
+        "image": "https://cards.scryfall.io/normal/front/8/2/82f949d0-41a0-4491-9057-bfb2bb20bdb3.jpg?1783915612",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/2/82f949d0-41a0-4491-9057-bfb2bb20bdb3.jpg?1783915612",
+        "priceUsd": 1.16,
         "scryfallUri": "https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus?utm_source=api"
       }
     ],
-    "priceUsd": 0.74
+    "priceUsd": 1.16
   },
   "C15-plunder-the-graves": {
     "colorIdentity": [
@@ -498,13 +498,13 @@
         "typeLine": "Legendary Creature — Human Shaman",
         "cmc": 4,
         "manaCost": "{2}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1743207181",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1743207181",
-        "priceUsd": 0.81,
+        "image": "https://cards.scryfall.io/normal/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1783907026",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1783907026",
+        "priceUsd": 2.82,
         "scryfallUri": "https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth?utm_source=api"
       }
     ],
-    "priceUsd": 0.81
+    "priceUsd": 2.82
   },
   "C15-wade-into-battle": {
     "colorIdentity": [
@@ -526,8 +526,8 @@
         "typeLine": "Legendary Creature — Giant Soldier",
         "cmc": 4,
         "manaCost": "{2}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/3/c/3c718940-dc07-4449-ba35-4029f366c3eb.jpg?1562273430",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/c/3c718940-dc07-4449-ba35-4029f366c3eb.jpg?1562273430",
+        "image": "https://cards.scryfall.io/normal/front/3/c/3c718940-dc07-4449-ba35-4029f366c3eb.jpg?1783934779",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/c/3c718940-dc07-4449-ba35-4029f366c3eb.jpg?1783934779",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cm2/7/kalemne-disciple-of-iroas?utm_source=api"
       }
@@ -555,13 +555,13 @@
         "typeLine": "Legendary Creature — Phyrexian Elf Warrior",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/6/b/6bf721b0-2b5a-4085-b50c-89cbe7420673.jpg?1673148596",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6bf721b0-2b5a-4085-b50c-89cbe7420673.jpg?1673148596",
-        "priceUsd": 1.91,
+        "image": "https://cards.scryfall.io/normal/front/6/b/6bf721b0-2b5a-4085-b50c-89cbe7420673.jpg?1783921838",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6bf721b0-2b5a-4085-b50c-89cbe7420673.jpg?1783921838",
+        "priceUsd": 2.28,
         "scryfallUri": "https://scryfall.com/card/2x2/211/ezuri-claw-of-progress?utm_source=api"
       }
     ],
-    "priceUsd": 1.91
+    "priceUsd": 2.28
   },
   "C16-stalwart-unity": {
     "colorIdentity": [
@@ -587,8 +587,8 @@
         "typeLine": "Legendary Creature — Human Soldier",
         "cmc": 4,
         "manaCost": "{R}{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/9/7/97fa8615-2b6c-445a-bcaf-44a7e847bf65.jpg?1633190298",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/7/97fa8615-2b6c-445a-bcaf-44a7e847bf65.jpg?1633190298",
+        "image": "https://cards.scryfall.io/normal/front/9/7/97fa8615-2b6c-445a-bcaf-44a7e847bf65.jpg?1783937085",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/7/97fa8615-2b6c-445a-bcaf-44a7e847bf65.jpg?1783937085",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis?utm_source=api"
       }
@@ -620,13 +620,13 @@
         "typeLine": "Legendary Creature — Phyrexian Angel Horror",
         "cmc": 4,
         "manaCost": "{G}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796",
-        "priceUsd": 32.23,
+        "image": "https://cards.scryfall.io/normal/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1783930136",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1783930136",
+        "priceUsd": 28.08,
         "scryfallUri": "https://scryfall.com/card/2xm/190/atraxa-praetors-voice?utm_source=api"
       }
     ],
-    "priceUsd": 32.23
+    "priceUsd": 28.08
   },
   "C16-entropic-uprising": {
     "colorIdentity": [
@@ -652,8 +652,8 @@
         "typeLine": "Legendary Creature — Ogre Wizard",
         "cmc": 4,
         "manaCost": "{U}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/c/2/c219dd22-433c-4f6a-a0c4-fae12239291c.jpg?1562418099",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c219dd22-433c-4f6a-a0c4-fae12239291c.jpg?1562418099",
+        "image": "https://cards.scryfall.io/normal/front/c/2/c219dd22-433c-4f6a-a0c4-fae12239291c.jpg?1783937081",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c219dd22-433c-4f6a-a0c4-fae12239291c.jpg?1783937081",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c16/50/yidris-maelstrom-wielder?utm_source=api"
       }
@@ -683,13 +683,13 @@
         "typeLine": "Legendary Artifact Creature — Human",
         "cmc": 4,
         "manaCost": "{W}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1763999888",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1763999888",
-        "priceUsd": 0.37,
+        "image": "https://cards.scryfall.io/normal/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1783911211",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1783911211",
+        "priceUsd": 0.4,
         "scryfallUri": "https://scryfall.com/card/mh3/289/breya-etherium-shaper?utm_source=api"
       }
     ],
-    "priceUsd": 0.37
+    "priceUsd": 0.4
   },
   "C16-open-hostility": {
     "colorIdentity": [
@@ -715,8 +715,8 @@
         "typeLine": "Legendary Creature — Human Soldier",
         "cmc": 4,
         "manaCost": "{B}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/5/b/5b483db6-b614-4af1-820a-42a4ee0c8707.jpg?1562401580",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b483db6-b614-4af1-820a-42a4ee0c8707.jpg?1562401580",
+        "image": "https://cards.scryfall.io/normal/front/5/b/5b483db6-b614-4af1-820a-42a4ee0c8707.jpg?1783937083",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b483db6-b614-4af1-820a-42a4ee0c8707.jpg?1783937083",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c16/41/saskia-the-unyielding?utm_source=api"
       }
@@ -745,8 +745,8 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 5,
         "manaCost": "{2}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/7/c/7c6e803a-451c-4aa6-97a2-400077f32c47.jpg?1627406462",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c6e803a-451c-4aa6-97a2-400077f32c47.jpg?1627406462",
+        "image": "https://cards.scryfall.io/normal/front/7/c/7c6e803a-451c-4aa6-97a2-400077f32c47.jpg?1783935937",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c6e803a-451c-4aa6-97a2-400077f32c47.jpg?1783935937",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c17/38/inalla-archmage-ritualist?utm_source=api"
       }
@@ -779,13 +779,13 @@
         "typeLine": "Legendary Creature — Dragon Avatar",
         "cmc": 9,
         "manaCost": "{4}{W}{U}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1689999317",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1689999317",
-        "priceUsd": 38.8,
+        "image": "https://cards.scryfall.io/normal/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1783915607",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1783915607",
+        "priceUsd": 39.8,
         "scryfallUri": "https://scryfall.com/card/cmm/361/the-ur-dragon?utm_source=api"
       }
     ],
-    "priceUsd": 38.8
+    "priceUsd": 39.8
   },
   "C17-feline-ferocity": {
     "colorIdentity": [
@@ -807,8 +807,8 @@
         "typeLine": "Legendary Creature — Cat Avatar",
         "cmc": 5,
         "manaCost": "{3}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/8/1/81dc3d00-97cd-4549-b5a4-15a1e08767f5.jpg?1567181403",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/1/81dc3d00-97cd-4549-b5a4-15a1e08767f5.jpg?1567181403",
+        "image": "https://cards.scryfall.io/normal/front/8/1/81dc3d00-97cd-4549-b5a4-15a1e08767f5.jpg?1783935939",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/1/81dc3d00-97cd-4549-b5a4-15a1e08767f5.jpg?1783935939",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c17/35/arahbo-roar-of-the-world?utm_source=api"
       }
@@ -837,13 +837,13 @@
         "typeLine": "Legendary Creature — Vampire Knight",
         "cmc": 6,
         "manaCost": "{3}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1736468492",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1736468492",
-        "priceUsd": 46.3,
+        "image": "https://cards.scryfall.io/normal/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1783908078",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1783908078",
+        "priceUsd": 41.04,
         "scryfallUri": "https://scryfall.com/card/inr/234/edgar-markov?utm_source=api"
       }
     ],
-    "priceUsd": 46.3
+    "priceUsd": 41.04
   },
   "C18-adaptive-enchantment": {
     "colorIdentity": [
@@ -866,8 +866,8 @@
         "typeLine": "Legendary Planeswalker — Estrid",
         "cmc": 4,
         "manaCost": "{1}{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/3/3/3340b83e-72dc-42e2-9f93-92f732c047df.jpg?1755010071",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/3/3340b83e-72dc-42e2-9f93-92f732c047df.jpg?1755010071",
+        "image": "https://cards.scryfall.io/normal/front/3/3/3340b83e-72dc-42e2-9f93-92f732c047df.jpg?1783934330",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/3/3340b83e-72dc-42e2-9f93-92f732c047df.jpg?1783934330",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c18/40/estrid-the-masked?utm_source=api"
       }
@@ -893,8 +893,8 @@
         "typeLine": "Legendary Planeswalker — Saheeli",
         "cmc": 4,
         "manaCost": "{2}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1592710284",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1592710284",
+        "image": "https://cards.scryfall.io/normal/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1783934329",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1783934329",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c18/44/saheeli-the-gifted?utm_source=api"
       }
@@ -922,8 +922,8 @@
         "typeLine": "Legendary Planeswalker — Windgrace",
         "cmc": 5,
         "manaCost": "{2}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/2/1/213d6fb8-5624-4804-b263-51f339482754.jpg?1592710275",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/213d6fb8-5624-4804-b263-51f339482754.jpg?1592710275",
+        "image": "https://cards.scryfall.io/normal/front/2/1/213d6fb8-5624-4804-b263-51f339482754.jpg?1783934329",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/213d6fb8-5624-4804-b263-51f339482754.jpg?1783934329",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c18/43/lord-windgrace?utm_source=api"
       }
@@ -951,13 +951,13 @@
         "typeLine": "Legendary Planeswalker — Aminatou",
         "cmc": 3,
         "manaCost": "{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1673148265",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1673148265",
-        "priceUsd": 2.73,
+        "image": "https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
+        "priceUsd": 3.29,
         "scryfallUri": "https://scryfall.com/card/2x2/169/aminatou-the-fateshifter?utm_source=api"
       }
     ],
-    "priceUsd": 2.73
+    "priceUsd": 3.29
   },
   "C19-faceless-menace": {
     "colorIdentity": [
@@ -982,8 +982,8 @@
         "typeLine": "Legendary Creature — Snake Wizard Sorcerer",
         "cmc": 4,
         "manaCost": "{1}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/6/8/68a144f1-df18-4dc5-81c3-dff2af27527f.jpg?1767960020",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/68a144f1-df18-4dc5-81c3-dff2af27527f.jpg?1767960020",
+        "image": "https://cards.scryfall.io/normal/front/6/8/68a144f1-df18-4dc5-81c3-dff2af27527f.jpg?1783932799",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/68a144f1-df18-4dc5-81c3-dff2af27527f.jpg?1783932799",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c19/45/kadena-slinking-sorcerer?utm_source=api"
       }
@@ -1009,8 +1009,8 @@
         "typeLine": "Legendary Creature — Vampire",
         "cmc": 3,
         "manaCost": "{1}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/9/1/913dd06f-ed2f-4128-9c9d-9cd0d8a55425.jpg?1568003632",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/913dd06f-ed2f-4128-9c9d-9cd0d8a55425.jpg?1568003632",
+        "image": "https://cards.scryfall.io/normal/front/9/1/913dd06f-ed2f-4128-9c9d-9cd0d8a55425.jpg?1783932801",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/913dd06f-ed2f-4128-9c9d-9cd0d8a55425.jpg?1783932801",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c19/37/anje-falkenrath?utm_source=api"
       }
@@ -1039,8 +1039,8 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 5,
         "manaCost": "{2}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/2/c/2c209efe-b4dc-44a3-bd45-d647f5680cbe.jpg?1568003729",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2c209efe-b4dc-44a3-bd45-d647f5680cbe.jpg?1568003729",
+        "image": "https://cards.scryfall.io/normal/front/2/c/2c209efe-b4dc-44a3-bd45-d647f5680cbe.jpg?1783932797",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2c209efe-b4dc-44a3-bd45-d647f5680cbe.jpg?1783932797",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c19/49/sevinne-the-chronoclasm?utm_source=api"
       }
@@ -1069,8 +1069,8 @@
         "typeLine": "Legendary Creature — Human Shaman",
         "cmc": 5,
         "manaCost": "{2}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/d/0/d0825bcd-8cf8-498a-a61e-406f136e1f3f.jpg?1568003672",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d0825bcd-8cf8-498a-a61e-406f136e1f3f.jpg?1568003672",
+        "image": "https://cards.scryfall.io/normal/front/d/0/d0825bcd-8cf8-498a-a61e-406f136e1f3f.jpg?1783932800",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d0825bcd-8cf8-498a-a61e-406f136e1f3f.jpg?1783932800",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c19/42/ghired-conclave-exile?utm_source=api"
       }
@@ -1099,13 +1099,13 @@
         "typeLine": "Legendary Creature — Elemental Dinosaur",
         "cmc": 4,
         "manaCost": "{1}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/f/9/f990cd78-2165-446f-a116-ae55d7a0f00d.jpg?1591234251",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/9/f990cd78-2165-446f-a116-ae55d7a0f00d.jpg?1591234251",
-        "priceUsd": 0.61,
+        "image": "https://cards.scryfall.io/normal/front/f/9/f990cd78-2165-446f-a116-ae55d7a0f00d.jpg?1783931231",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/9/f990cd78-2165-446f-a116-ae55d7a0f00d.jpg?1783931231",
+        "priceUsd": 0.74,
         "scryfallUri": "https://scryfall.com/card/c20/9/kalamax-the-stormsire?utm_source=api"
       }
     ],
-    "priceUsd": 0.61
+    "priceUsd": 0.74
   },
   "C20-enhanced-evolution": {
     "colorIdentity": [
@@ -1129,13 +1129,13 @@
         "typeLine": "Legendary Creature — Nightmare Beast",
         "cmc": 6,
         "manaCost": "{3}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/6/3/639df7bc-b87d-4bf5-8005-8eabc54e955b.jpg?1778753967",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/3/639df7bc-b87d-4bf5-8005-8eabc54e955b.jpg?1778753967",
-        "priceUsd": 1.01,
+        "image": "https://cards.scryfall.io/normal/front/6/3/639df7bc-b87d-4bf5-8005-8eabc54e955b.jpg?1783931231",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/3/639df7bc-b87d-4bf5-8005-8eabc54e955b.jpg?1783931231",
+        "priceUsd": 1.15,
         "scryfallUri": "https://scryfall.com/card/c20/12/otrimi-the-ever-playful?utm_source=api"
       }
     ],
-    "priceUsd": 1.01
+    "priceUsd": 1.15
   },
   "C20-ruthless-regiment": {
     "colorIdentity": [
@@ -1159,13 +1159,13 @@
         "typeLine": "Legendary Creature — Human Soldier",
         "cmc": 4,
         "manaCost": "{1}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/6/e/6e660d42-f5d3-452a-9662-74e18a1ae9e4.jpg?1591234244",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/e/6e660d42-f5d3-452a-9662-74e18a1ae9e4.jpg?1591234244",
-        "priceUsd": 0.65,
+        "image": "https://cards.scryfall.io/normal/front/6/e/6e660d42-f5d3-452a-9662-74e18a1ae9e4.jpg?1783931232",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/e/6e660d42-f5d3-452a-9662-74e18a1ae9e4.jpg?1783931232",
+        "priceUsd": 0.66,
         "scryfallUri": "https://scryfall.com/card/c20/8/jirina-kudro?utm_source=api"
       }
     ],
-    "priceUsd": 0.65
+    "priceUsd": 0.66
   },
   "C20-symbiotic-swarm": {
     "colorIdentity": [
@@ -1189,13 +1189,13 @@
         "typeLine": "Legendary Creature — Nightmare Insect",
         "cmc": 5,
         "manaCost": "{2}{W}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/e/b/ebc57f73-a517-463e-8d55-56aa996d091e.jpg?1591946565",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/b/ebc57f73-a517-463e-8d55-56aa996d091e.jpg?1591946565",
-        "priceUsd": 0.8,
+        "image": "https://cards.scryfall.io/normal/front/e/b/ebc57f73-a517-463e-8d55-56aa996d091e.jpg?1783931231",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/b/ebc57f73-a517-463e-8d55-56aa996d091e.jpg?1783931231",
+        "priceUsd": 0.99,
         "scryfallUri": "https://scryfall.com/card/c20/10/kathril-aspect-warper?utm_source=api"
       }
     ],
-    "priceUsd": 0.8
+    "priceUsd": 0.99
   },
   "C20-timeless-wisdom": {
     "colorIdentity": [
@@ -1219,13 +1219,13 @@
         "typeLine": "Legendary Creature — Human Shaman",
         "cmc": 5,
         "manaCost": "{2}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg?1591234237",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg?1591234237",
-        "priceUsd": 0.4,
+        "image": "https://cards.scryfall.io/normal/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg?1783931232",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245.jpg?1783931232",
+        "priceUsd": 0.43,
         "scryfallUri": "https://scryfall.com/card/c20/7/gavi-nest-warden?utm_source=api"
       }
     ],
-    "priceUsd": 0.4
+    "priceUsd": 0.43
   },
   "ZNC-land-s-wrath": {
     "colorIdentity": [
@@ -1249,8 +1249,8 @@
         "typeLine": "Legendary Creature — Elf Spirit",
         "cmc": 4,
         "manaCost": "{1}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/8/3/8319b155-0fba-4d30-9481-bf01afbd3457.jpg?1617522154",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/8319b155-0fba-4d30-9481-bf01afbd3457.jpg?1617522154",
+        "image": "https://cards.scryfall.io/normal/front/8/3/8319b155-0fba-4d30-9481-bf01afbd3457.jpg?1783929495",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/3/8319b155-0fba-4d30-9481-bf01afbd3457.jpg?1783929495",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/znc/2/obuun-mul-daya-ancestor?utm_source=api"
       }
@@ -1277,8 +1277,8 @@
         "typeLine": "Legendary Creature — Vampire Rogue",
         "cmc": 4,
         "manaCost": "{2}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/b/c/bca84fc4-4710-44c8-b90a-73ef888714d8.jpg?1615171221",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bca84fc4-4710-44c8-b90a-73ef888714d8.jpg?1615171221",
+        "image": "https://cards.scryfall.io/normal/front/b/c/bca84fc4-4710-44c8-b90a-73ef888714d8.jpg?1783929494",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bca84fc4-4710-44c8-b90a-73ef888714d8.jpg?1783929494",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/znc/1/anowon-the-ruin-thief?utm_source=api"
       }
@@ -1305,8 +1305,8 @@
         "typeLine": "Legendary Creature — Human Warrior",
         "cmc": 3,
         "manaCost": "{1}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/7/c/7c5ada8c-98f2-4f9c-bcb5-dfa4f804fbe6.jpg?1610072970",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c5ada8c-98f2-4f9c-bcb5-dfa4f804fbe6.jpg?1610072970",
+        "image": "https://cards.scryfall.io/normal/front/7/c/7c5ada8c-98f2-4f9c-bcb5-dfa4f804fbe6.jpg?1783928737",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c5ada8c-98f2-4f9c-bcb5-dfa4f804fbe6.jpg?1783928737",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cmr/362/wyleth-soul-of-steel?utm_source=api"
       }
@@ -1332,13 +1332,13 @@
         "typeLine": "Legendary Creature — Serpent",
         "cmc": 6,
         "manaCost": "{4}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/6/7/673c21f8-02b6-4ac4-b2fc-df065b4ac662.jpg?1726285172",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/7/673c21f8-02b6-4ac4-b2fc-df065b4ac662.jpg?1726285172",
-        "priceUsd": 11.89,
+        "image": "https://cards.scryfall.io/normal/front/6/7/673c21f8-02b6-4ac4-b2fc-df065b4ac662.jpg?1783909597",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/7/673c21f8-02b6-4ac4-b2fc-df065b4ac662.jpg?1783909597",
+        "priceUsd": 12.19,
         "scryfallUri": "https://scryfall.com/card/dsc/210/aesi-tyrant-of-gyre-strait?utm_source=api"
       }
     ],
-    "priceUsd": 11.89
+    "priceUsd": 12.19
   },
   "KHC-elven-empire": {
     "colorIdentity": [
@@ -1360,13 +1360,13 @@
         "typeLine": "Legendary Creature — Elf Noble",
         "cmc": 4,
         "manaCost": "{2}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1730489505",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1730489505",
-        "priceUsd": 1.39,
+        "image": "https://cards.scryfall.io/normal/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053",
+        "priceUsd": 2.52,
         "scryfallUri": "https://scryfall.com/card/fdn/242/lathril-blade-of-the-elves?utm_source=api"
       }
     ],
-    "priceUsd": 1.39
+    "priceUsd": 2.52
   },
   "KHC-phantom-premonition": {
     "colorIdentity": [
@@ -1388,13 +1388,13 @@
         "typeLine": "Legendary Creature — Spirit Warrior",
         "cmc": 4,
         "manaCost": "{2}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1704848195",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1704848195",
-        "priceUsd": 0.43,
+        "image": "https://cards.scryfall.io/normal/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1783928341",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1783928341",
+        "priceUsd": 0.38,
         "scryfallUri": "https://scryfall.com/card/khc/2/ranar-the-ever-watchful?utm_source=api"
       }
     ],
-    "priceUsd": 0.43
+    "priceUsd": 0.38
   },
   "C21-lorehold-legacies": {
     "colorIdentity": [
@@ -1416,8 +1416,8 @@
         "typeLine": "Legendary Creature — Giant Artificer",
         "cmc": 4,
         "manaCost": "{2}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/5/8/5815fe6e-e26b-4918-a090-55d6442722c1.jpg?1674185818",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/5815fe6e-e26b-4918-a090-55d6442722c1.jpg?1674185818",
+        "image": "https://cards.scryfall.io/normal/front/5/8/5815fe6e-e26b-4918-a090-55d6442722c1.jpg?1783927612",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/5815fe6e-e26b-4918-a090-55d6442722c1.jpg?1783927612",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c21/8/osgir-the-reconstructor?utm_source=api"
       }
@@ -1444,8 +1444,8 @@
         "typeLine": "Legendary Creature — Human Shaman",
         "cmc": 4,
         "manaCost": "{2}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1674185788",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1674185788",
+        "image": "https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c21/4/zaffai-thunder-conductor?utm_source=api"
       }
@@ -1472,13 +1472,13 @@
         "typeLine": "Legendary Creature — Merfolk Wizard",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/b/9/b9c11061-bb34-4904-b9f1-ea106b517bbe.jpg?1706240967",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9c11061-bb34-4904-b9f1-ea106b517bbe.jpg?1706240967",
-        "priceUsd": 10.45,
+        "image": "https://cards.scryfall.io/normal/front/b/9/b9c11061-bb34-4904-b9f1-ea106b517bbe.jpg?1783912983",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9c11061-bb34-4904-b9f1-ea106b517bbe.jpg?1783912983",
+        "priceUsd": 8.46,
         "scryfallUri": "https://scryfall.com/card/mkc/198/adrix-and-nev-twincasters?utm_source=api"
       }
     ],
-    "priceUsd": 10.45
+    "priceUsd": 8.46
   },
   "C21-silverquill-statement": {
     "colorIdentity": [
@@ -1500,13 +1500,13 @@
         "typeLine": "Legendary Creature — Bird Warlock",
         "cmc": 3,
         "manaCost": "{1}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/5/9/599f87c8-643e-4224-93a5-853c0bd4e497.jpg?1775941676",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/599f87c8-643e-4224-93a5-853c0bd4e497.jpg?1775941676",
-        "priceUsd": 0.5,
+        "image": "https://cards.scryfall.io/normal/front/5/9/599f87c8-643e-4224-93a5-853c0bd4e497.jpg?1783903756",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/599f87c8-643e-4224-93a5-853c0bd4e497.jpg?1783903756",
+        "priceUsd": 0.87,
         "scryfallUri": "https://scryfall.com/card/soc/298/breena-the-demagogue?utm_source=api"
       }
     ],
-    "priceUsd": 0.5
+    "priceUsd": 0.87
   },
   "C21-witherbloom-witchcraft": {
     "colorIdentity": [
@@ -1528,8 +1528,8 @@
         "typeLine": "Legendary Creature — Dryad Druid",
         "cmc": 3,
         "manaCost": "{1}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/4/2/42a97ec1-f613-49a5-9236-7fded1a81f3b.jpg?1674185804",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/2/42a97ec1-f613-49a5-9236-7fded1a81f3b.jpg?1674185804",
+        "image": "https://cards.scryfall.io/normal/front/4/2/42a97ec1-f613-49a5-9236-7fded1a81f3b.jpg?1783927612",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/2/42a97ec1-f613-49a5-9236-7fded1a81f3b.jpg?1783927612",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/c21/6/willowdusk-essence-seer?utm_source=api"
       }
@@ -1558,8 +1558,8 @@
         "typeLine": "Legendary Creature — Elf Knight",
         "cmc": 4,
         "manaCost": "{1}{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/1/e/1efbea01-c6a1-4380-a14f-6206c7895e48.jpg?1632335378",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/e/1efbea01-c6a1-4380-a14f-6206c7895e48.jpg?1632335378",
+        "image": "https://cards.scryfall.io/normal/front/1/e/1efbea01-c6a1-4380-a14f-6206c7895e48.jpg?1783926259",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/e/1efbea01-c6a1-4380-a14f-6206c7895e48.jpg?1783926259",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/afc/1/galea-kindler-of-hope?utm_source=api"
       }
@@ -1586,8 +1586,8 @@
         "typeLine": "Legendary Creature — Dragon Barbarian",
         "cmc": 5,
         "manaCost": "{3}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/6/8/683ca7f0-e9df-459b-a8e3-cf80b39c732d.jpg?1632335388",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/683ca7f0-e9df-459b-a8e3-cf80b39c732d.jpg?1632335388",
+        "image": "https://cards.scryfall.io/normal/front/6/8/683ca7f0-e9df-459b-a8e3-cf80b39c732d.jpg?1783926258",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/683ca7f0-e9df-459b-a8e3-cf80b39c732d.jpg?1783926258",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/afc/4/vrondiss-rage-of-ancients?utm_source=api"
       }
@@ -1616,8 +1616,8 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 3,
         "manaCost": "{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/d/3/d30255f6-e058-476a-b377-2ee4c9178ed1.jpg?1632335385",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/3/d30255f6-e058-476a-b377-2ee4c9178ed1.jpg?1632335385",
+        "image": "https://cards.scryfall.io/normal/front/d/3/d30255f6-e058-476a-b377-2ee4c9178ed1.jpg?1783926260",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/3/d30255f6-e058-476a-b377-2ee4c9178ed1.jpg?1783926260",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/afc/3/sefris-of-the-hidden-ways?utm_source=api"
       }
@@ -1644,8 +1644,8 @@
         "typeLine": "Legendary Creature — Tiefling Warlock",
         "cmc": 4,
         "manaCost": "{2}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1631839207",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1631839207",
+        "image": "https://cards.scryfall.io/normal/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1783926259",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1783926259",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/afc/2/prosper-tome-bound?utm_source=api"
       }
@@ -1672,13 +1672,13 @@
         "typeLine": "Legendary Creature — Human Noble",
         "cmc": 4,
         "manaCost": "{2}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/b/d/bd7e1645-ea8f-41c4-b3ee-58f44fc5c574.jpg?1675456147",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bd7e1645-ea8f-41c4-b3ee-58f44fc5c574.jpg?1675456147",
-        "priceUsd": 0.52,
+        "image": "https://cards.scryfall.io/normal/front/b/d/bd7e1645-ea8f-41c4-b3ee-58f44fc5c574.jpg?1783925384",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bd7e1645-ea8f-41c4-b3ee-58f44fc5c574.jpg?1783925384",
+        "priceUsd": 0.59,
         "scryfallUri": "https://scryfall.com/card/mic/1/leinore-autumn-sovereign?utm_source=api"
       }
     ],
-    "priceUsd": 0.52
+    "priceUsd": 0.59
   },
   "MIC-undead-unleashed": {
     "colorIdentity": [
@@ -1700,13 +1700,13 @@
         "typeLine": "Legendary Creature — Zombie Warrior",
         "cmc": 4,
         "manaCost": "{2}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1675456154",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1675456154",
-        "priceUsd": 9.12,
+        "image": "https://cards.scryfall.io/normal/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1783925384",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1783925384",
+        "priceUsd": 8.71,
         "scryfallUri": "https://scryfall.com/card/mic/2/wilhelt-the-rotcleaver?utm_source=api"
       }
     ],
-    "priceUsd": 9.12
+    "priceUsd": 8.71
   },
   "VOC-spirit-squadron": {
     "colorIdentity": [
@@ -1728,13 +1728,13 @@
         "typeLine": "Legendary Creature — Spirit Soldier",
         "cmc": 7,
         "manaCost": "{5}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/2/b/2b86b538-0766-440d-a2cd-f5d5bfcfb010.jpg?1641600129",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b86b538-0766-440d-a2cd-f5d5bfcfb010.jpg?1641600129",
-        "priceUsd": 0.4,
+        "image": "https://cards.scryfall.io/normal/front/2/b/2b86b538-0766-440d-a2cd-f5d5bfcfb010.jpg?1783925010",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b86b538-0766-440d-a2cd-f5d5bfcfb010.jpg?1783925010",
+        "priceUsd": 0.43,
         "scryfallUri": "https://scryfall.com/card/voc/1/millicent-restless-revenant?utm_source=api"
       }
     ],
-    "priceUsd": 0.4
+    "priceUsd": 0.43
   },
   "VOC-vampiric-bloodline": {
     "colorIdentity": [
@@ -1756,13 +1756,13 @@
         "typeLine": "Legendary Creature — Vampire Noble",
         "cmc": 4,
         "manaCost": "{2}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1641600044",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1641600044",
-        "priceUsd": 0.67,
+        "image": "https://cards.scryfall.io/normal/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1783925008",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1783925008",
+        "priceUsd": 0.69,
         "scryfallUri": "https://scryfall.com/card/voc/2/strefan-maurer-progenitor?utm_source=api"
       }
     ],
-    "priceUsd": 0.67
+    "priceUsd": 0.69
   },
   "NEC-buckle-up": {
     "colorIdentity": [
@@ -1784,13 +1784,13 @@
         "typeLine": "Legendary Creature — Moonfolk Pilot",
         "cmc": 3,
         "manaCost": "{1}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/f/e/fea6c1c8-eff9-4b66-b96d-e23016f0bb62.jpg?1651655136",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/e/fea6c1c8-eff9-4b66-b96d-e23016f0bb62.jpg?1651655136",
-        "priceUsd": 0.49,
+        "image": "https://cards.scryfall.io/normal/front/f/e/fea6c1c8-eff9-4b66-b96d-e23016f0bb62.jpg?1783924000",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/e/fea6c1c8-eff9-4b66-b96d-e23016f0bb62.jpg?1783924000",
+        "priceUsd": 0.42,
         "scryfallUri": "https://scryfall.com/card/nec/2/kotori-pilot-prodigy?utm_source=api"
       }
     ],
-    "priceUsd": 0.49
+    "priceUsd": 0.42
   },
   "NEC-upgrades-unleashed": {
     "colorIdentity": [
@@ -1812,13 +1812,13 @@
         "typeLine": "Legendary Creature — Snake Samurai",
         "cmc": 4,
         "manaCost": "{2}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1651655118",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1651655118",
-        "priceUsd": 1.07,
+        "image": "https://cards.scryfall.io/normal/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1783924001",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1783924001",
+        "priceUsd": 1.01,
         "scryfallUri": "https://scryfall.com/card/nec/1/chishiro-the-shattered-blade?utm_source=api"
       }
     ],
-    "priceUsd": 1.07
+    "priceUsd": 1.01
   },
   "NCC-bedecked-brokers": {
     "colorIdentity": [
@@ -1842,13 +1842,13 @@
         "typeLine": "Legendary Creature — Rhino Soldier",
         "cmc": 4,
         "manaCost": "{1}{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/d/4/d438237b-c6f7-44d0-a3e6-6ec7d7465d33.jpg?1673481677",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/4/d438237b-c6f7-44d0-a3e6-6ec7d7465d33.jpg?1673481677",
-        "priceUsd": 0.42,
+        "image": "https://cards.scryfall.io/normal/front/d/4/d438237b-c6f7-44d0-a3e6-6ec7d7465d33.jpg?1783923381",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/4/d438237b-c6f7-44d0-a3e6-6ec7d7465d33.jpg?1783923381",
+        "priceUsd": 0.46,
         "scryfallUri": "https://scryfall.com/card/ncc/5/perrie-the-pulverizer?utm_source=api"
       }
     ],
-    "priceUsd": 0.42
+    "priceUsd": 0.46
   },
   "NCC-cabaretti-cacophony": {
     "colorIdentity": [
@@ -1873,13 +1873,13 @@
         "typeLine": "Legendary Creature — Cat Bard Druid",
         "cmc": 4,
         "manaCost": "{1}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/9/b/9b9850d6-49d3-45ec-9a45-75aa0fce9ee5.jpg?1673481666",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/b/9b9850d6-49d3-45ec-9a45-75aa0fce9ee5.jpg?1673481666",
-        "priceUsd": 0.39,
+        "image": "https://cards.scryfall.io/normal/front/9/b/9b9850d6-49d3-45ec-9a45-75aa0fce9ee5.jpg?1783923381",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/b/9b9850d6-49d3-45ec-9a45-75aa0fce9ee5.jpg?1783923381",
+        "priceUsd": 0.43,
         "scryfallUri": "https://scryfall.com/card/ncc/4/kitt-kanto-mayhem-diva?utm_source=api"
       }
     ],
-    "priceUsd": 0.39
+    "priceUsd": 0.43
   },
   "NCC-maestros-massacre": {
     "colorIdentity": [
@@ -1903,13 +1903,13 @@
         "typeLine": "Legendary Creature — Vampire Assassin",
         "cmc": 3,
         "manaCost": "{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/4/6/462e887d-6b91-4b31-9487-2780ffe8943f.jpg?1673481630",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/6/462e887d-6b91-4b31-9487-2780ffe8943f.jpg?1673481630",
-        "priceUsd": 0.46,
+        "image": "https://cards.scryfall.io/normal/front/4/6/462e887d-6b91-4b31-9487-2780ffe8943f.jpg?1783923381",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/6/462e887d-6b91-4b31-9487-2780ffe8943f.jpg?1783923381",
+        "priceUsd": 0.44,
         "scryfallUri": "https://scryfall.com/card/ncc/1/anhelo-the-painter?utm_source=api"
       }
     ],
-    "priceUsd": 0.46
+    "priceUsd": 0.44
   },
   "NCC-obscura-operation": {
     "colorIdentity": [
@@ -1933,13 +1933,13 @@
         "typeLine": "Legendary Creature — Octopus Rogue",
         "cmc": 4,
         "manaCost": "{1}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/7/4/74b8ae28-e169-46be-8180-ebdaf80efd81.jpg?1673481656",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/4/74b8ae28-e169-46be-8180-ebdaf80efd81.jpg?1673481656",
-        "priceUsd": 0.88,
+        "image": "https://cards.scryfall.io/normal/front/7/4/74b8ae28-e169-46be-8180-ebdaf80efd81.jpg?1783923381",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/4/74b8ae28-e169-46be-8180-ebdaf80efd81.jpg?1783923381",
+        "priceUsd": 1.07,
         "scryfallUri": "https://scryfall.com/card/ncc/3/kamiz-obscura-oculus?utm_source=api"
       }
     ],
-    "priceUsd": 0.88
+    "priceUsd": 1.07
   },
   "NCC-riveteers-rampage": {
     "colorIdentity": [
@@ -1963,13 +1963,13 @@
         "typeLine": "Legendary Creature — Devil Rogue",
         "cmc": 3,
         "manaCost": "{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43.jpg?1673481644",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43.jpg?1673481644",
-        "priceUsd": 0.95,
+        "image": "https://cards.scryfall.io/normal/front/e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43.jpg?1783923381",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43.jpg?1783923381",
+        "priceUsd": 0.99,
         "scryfallUri": "https://scryfall.com/card/ncc/2/henzie-toolbox-torre?utm_source=api"
       }
     ],
-    "priceUsd": 0.95
+    "priceUsd": 0.99
   },
   "CLB-exit-from-exile": {
     "colorIdentity": [
@@ -1991,8 +1991,8 @@
         "typeLine": "Legendary Creature — Human Druid",
         "cmc": 3,
         "manaCost": "{1}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1674140675",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1674140675",
+        "image": "https://cards.scryfall.io/normal/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1783922519",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1783922519",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/clb/647/faldorn-dread-wolf-herald?utm_source=api"
       }
@@ -2018,8 +2018,8 @@
         "typeLine": "Legendary Creature — Dragon",
         "cmc": 5,
         "manaCost": "{3}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1674140684",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1674140684",
+        "image": "https://cards.scryfall.io/normal/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1783922517",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1783922517",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/clb/648/firkraag-cunning-instigator?utm_source=api"
       }
@@ -2046,8 +2046,8 @@
         "typeLine": "Legendary Creature — Horror Pirate",
         "cmc": 5,
         "manaCost": "{3}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/5/5/55c02dc8-0743-400c-b334-ca029caf0463.jpg?1728436128",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/55c02dc8-0743-400c-b334-ca029caf0463.jpg?1728436128",
+        "image": "https://cards.scryfall.io/normal/front/5/5/55c02dc8-0743-400c-b334-ca029caf0463.jpg?1783922521",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/55c02dc8-0743-400c-b334-ca029caf0463.jpg?1783922521",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/clb/646/captain-nghathrod?utm_source=api"
       }
@@ -2074,8 +2074,8 @@
         "typeLine": "Legendary Creature — Human Rogue",
         "cmc": 3,
         "manaCost": "{1}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/7/a/7a1294fd-9885-4dfd-8192-0ca074fc83f7.jpg?1674140693",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/a/7a1294fd-9885-4dfd-8192-0ca074fc83f7.jpg?1674140693",
+        "image": "https://cards.scryfall.io/normal/front/7/a/7a1294fd-9885-4dfd-8192-0ca074fc83f7.jpg?1783922518",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/a/7a1294fd-9885-4dfd-8192-0ca074fc83f7.jpg?1783922518",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/clb/649/nalia-dearnise?utm_source=api"
       }
@@ -2103,13 +2103,13 @@
         "typeLine": "Legendary Planeswalker — Dihada",
         "cmc": 4,
         "manaCost": "{1}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1685554091",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1685554091",
-        "priceUsd": 14.24,
+        "image": "https://cards.scryfall.io/normal/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1783921477",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1783921477",
+        "priceUsd": 12.88,
         "scryfallUri": "https://scryfall.com/card/dmc/1/dihada-binder-of-wills?utm_source=api"
       }
     ],
-    "priceUsd": 14.24
+    "priceUsd": 12.88
   },
   "DMC-painbow": {
     "colorIdentity": [
@@ -2136,13 +2136,13 @@
         "typeLine": "Legendary Planeswalker — Jared",
         "cmc": 5,
         "manaCost": "{W}{U}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1673304686",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1673304686",
-        "priceUsd": 0.93,
+        "image": "https://cards.scryfall.io/normal/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1783921476",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1783921476",
+        "priceUsd": 1.17,
         "scryfallUri": "https://scryfall.com/card/dmc/2/jared-carthalion?utm_source=api"
       }
     ],
-    "priceUsd": 0.93
+    "priceUsd": 1.17
   },
   "40K-forces-of-the-imperium": {
     "colorIdentity": [
@@ -2166,8 +2166,8 @@
         "typeLine": "Legendary Creature — Human Inquisitor",
         "cmc": 4,
         "manaCost": "{1}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/8/6/86a4afac-69fd-46e9-8009-58de59bf3f5c.jpg?1674058362",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/86a4afac-69fd-46e9-8009-58de59bf3f5c.jpg?1674058362",
+        "image": "https://cards.scryfall.io/normal/front/8/6/86a4afac-69fd-46e9-8009-58de59bf3f5c.jpg?1783920952",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/86a4afac-69fd-46e9-8009-58de59bf3f5c.jpg?1783920952",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/40k/3/inquisitor-greyfax?utm_source=api"
       }
@@ -2191,8 +2191,8 @@
         "typeLine": "Legendary Artifact Creature — Necron",
         "cmc": 4,
         "manaCost": "{1}{B}{B}{B}",
-        "image": "https://cards.scryfall.io/normal/front/e/1/e11174b2-2423-4a6e-9dcf-ff550eee7e5a.jpg?1674058343",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/1/e11174b2-2423-4a6e-9dcf-ff550eee7e5a.jpg?1674058343",
+        "image": "https://cards.scryfall.io/normal/front/e/1/e11174b2-2423-4a6e-9dcf-ff550eee7e5a.jpg?1783920952",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/1/e11174b2-2423-4a6e-9dcf-ff550eee7e5a.jpg?1783920952",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/40k/1/szarekh-the-silent-king?utm_source=api"
       }
@@ -2221,8 +2221,8 @@
         "typeLine": "Legendary Creature — Astartes Warrior",
         "cmc": 5,
         "manaCost": "{2}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/c/9/c9f1fc97-00c0-492b-a4a3-b179afc2f95d.jpg?1674058353",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c9f1fc97-00c0-492b-a4a3-b179afc2f95d.jpg?1674058353",
+        "image": "https://cards.scryfall.io/normal/front/c/9/c9f1fc97-00c0-492b-a4a3-b179afc2f95d.jpg?1783920953",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c9f1fc97-00c0-492b-a4a3-b179afc2f95d.jpg?1783920953",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/40k/2/abaddon-the-despoiler?utm_source=api"
       }
@@ -2250,8 +2250,8 @@
         "typeLine": "Legendary Creature — Tyranid",
         "cmc": 6,
         "manaCost": "{3}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1674058371",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1674058371",
+        "image": "https://cards.scryfall.io/normal/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1783920951",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1783920951",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/40k/4/the-swarmlord?utm_source=api"
       }
@@ -2280,13 +2280,13 @@
         "typeLine": "Legendary Creature — Human Artificer",
         "cmc": 5,
         "manaCost": "{2}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/7/f/7f5b1daa-ec45-48de-9496-6ca5b491a0dc.jpg?1705542701",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/f/7f5b1daa-ec45-48de-9496-6ca5b491a0dc.jpg?1705542701",
-        "priceUsd": 0.43,
+        "image": "https://cards.scryfall.io/normal/front/7/f/7f5b1daa-ec45-48de-9496-6ca5b491a0dc.jpg?1783919726",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/f/7f5b1daa-ec45-48de-9496-6ca5b491a0dc.jpg?1783919726",
+        "priceUsd": 0.5,
         "scryfallUri": "https://scryfall.com/card/brc/1/mishra-eminent-one?utm_source=api"
       }
     ],
-    "priceUsd": 0.43
+    "priceUsd": 0.5
   },
   "BRC-urza-s-iron-alliance": {
     "colorIdentity": [
@@ -2310,13 +2310,13 @@
         "typeLine": "Legendary Creature — Human Artificer",
         "cmc": 6,
         "manaCost": "{3}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1705542672",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1705542672",
-        "priceUsd": 4.1,
+        "image": "https://cards.scryfall.io/normal/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1783919724",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1783919724",
+        "priceUsd": 5.66,
         "scryfallUri": "https://scryfall.com/card/brc/2/urza-chief-artificer?utm_source=api"
       }
     ],
-    "priceUsd": 4.1
+    "priceUsd": 5.66
   },
   "SCD-chaos-incarnate": {
     "colorIdentity": [
@@ -2338,13 +2338,13 @@
         "typeLine": "Legendary Creature — Demon Berserker",
         "cmc": 4,
         "manaCost": "{2}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1726285218",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1726285218",
-        "priceUsd": 1.04,
+        "image": "https://cards.scryfall.io/normal/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1783909592",
+        "priceUsd": 3.48,
         "scryfallUri": "https://scryfall.com/card/dsc/223/kardur-doomscourge?utm_source=api"
       }
     ],
-    "priceUsd": 1.04
+    "priceUsd": 3.48
   },
   "SCD-draconic-destruction": {
     "colorIdentity": [
@@ -2365,13 +2365,13 @@
         "typeLine": "Legendary Creature — Dragon",
         "cmc": 7,
         "manaCost": "{5}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1743207078",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1743207078",
-        "priceUsd": 0.36,
+        "image": "https://cards.scryfall.io/normal/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/5/c569fab1-6901-40ab-b958-001698819585.jpg?1783907034",
+        "priceUsd": 0.42,
         "scryfallUri": "https://scryfall.com/card/tdc/281/atarka-world-render?utm_source=api"
       }
     ],
-    "priceUsd": 0.36
+    "priceUsd": 0.42
   },
   "SCD-first-flight": {
     "colorIdentity": [
@@ -2392,13 +2392,13 @@
         "typeLine": "Legendary Creature — Sphinx",
         "cmc": 6,
         "manaCost": "{2}{W}{W}{U}{U}",
-        "image": "https://cards.scryfall.io/normal/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1591321318",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1591321318",
-        "priceUsd": 0.32,
+        "image": "https://cards.scryfall.io/normal/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/e/1e3b82a7-ebef-4190-9f50-40b992ba89c9.jpg?1783931147",
+        "priceUsd": 0.36,
         "scryfallUri": "https://scryfall.com/card/c20/217/isperia-supreme-judge?utm_source=api"
       }
     ],
-    "priceUsd": 0.32
+    "priceUsd": 0.36
   },
   "SCD-grave-danger": {
     "colorIdentity": [
@@ -2420,13 +2420,13 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 4,
         "manaCost": "{2}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1736468506",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1736468506",
-        "priceUsd": 0.38,
+        "image": "https://cards.scryfall.io/normal/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077",
+        "priceUsd": 0.42,
         "scryfallUri": "https://scryfall.com/card/inr/237/gisa-and-geralf?utm_source=api"
       }
     ],
-    "priceUsd": 0.38
+    "priceUsd": 0.42
   },
   "SCD-token-triumph": {
     "colorIdentity": [
@@ -2448,13 +2448,13 @@
         "typeLine": "Legendary Creature — Elf Cleric",
         "cmc": 2,
         "manaCost": "{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1572893604",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1572893604",
-        "priceUsd": 0.39,
+        "image": "https://cards.scryfall.io/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1783934136",
+        "priceUsd": 0.33,
         "scryfallUri": "https://scryfall.com/card/grn/168/emmara-soul-of-the-accord?utm_source=api"
       }
     ],
-    "priceUsd": 0.39
+    "priceUsd": 0.33
   },
   "SLD-heads-i-win-tails-you-lose": {
     "colorIdentity": [
@@ -2476,9 +2476,9 @@
         "typeLine": "Legendary Creature — Homunculus",
         "cmc": 5,
         "manaCost": "{4}{U}",
-        "image": "https://cards.scryfall.io/normal/front/7/6/76c33402-a022-4d2f-9a83-4b8ddc04e971.jpg?1562918785",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76c33402-a022-4d2f-9a83-4b8ddc04e971.jpg?1562918785",
-        "priceUsd": 3.87,
+        "image": "https://cards.scryfall.io/normal/front/7/6/76c33402-a022-4d2f-9a83-4b8ddc04e971.jpg?1783934878",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76c33402-a022-4d2f-9a83-4b8ddc04e971.jpg?1783934878",
+        "priceUsd": 3.77,
         "scryfallUri": "https://scryfall.com/card/bbd/5/zndrsplt-eye-of-wisdom?utm_source=api"
       },
       {
@@ -2489,13 +2489,13 @@
         "typeLine": "Legendary Creature — Cyclops Berserker",
         "cmc": 5,
         "manaCost": "{4}{R}",
-        "image": "https://cards.scryfall.io/normal/front/d/5/d53ee8c0-b27c-4556-b610-ff64edb7a18f.jpg?1562937757",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d53ee8c0-b27c-4556-b610-ff64edb7a18f.jpg?1562937757",
-        "priceUsd": 3.02,
+        "image": "https://cards.scryfall.io/normal/front/d/5/d53ee8c0-b27c-4556-b610-ff64edb7a18f.jpg?1783934878",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d53ee8c0-b27c-4556-b610-ff64edb7a18f.jpg?1783934878",
+        "priceUsd": 3.48,
         "scryfallUri": "https://scryfall.com/card/bbd/6/okaun-eye-of-chaos?utm_source=api"
       }
     ],
-    "priceUsd": 6.890000000000001
+    "priceUsd": 7.25
   },
   "ONC-corrupting-influence": {
     "colorIdentity": [
@@ -2519,13 +2519,13 @@
         "typeLine": "Legendary Creature — Phyrexian Angel",
         "cmc": 4,
         "manaCost": "{1}{W}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1738281205",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1738281205",
-        "priceUsd": 2.81,
+        "image": "https://cards.scryfall.io/normal/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1783918163",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/ab866ec4-dcb4-47ef-8de1-a369986609c0.jpg?1783918163",
+        "priceUsd": 3.18,
         "scryfallUri": "https://scryfall.com/card/onc/1/ixhel-scion-of-atraxa?utm_source=api"
       }
     ],
-    "priceUsd": 2.81
+    "priceUsd": 3.18
   },
   "ONC-rebellion-rising": {
     "colorIdentity": [
@@ -2547,13 +2547,13 @@
         "typeLine": "Legendary Creature — Human Rebel",
         "cmc": 4,
         "manaCost": "{2}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1738281219",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1738281219",
-        "priceUsd": 2.43,
+        "image": "https://cards.scryfall.io/normal/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1783918164",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1783918164",
+        "priceUsd": 2.71,
         "scryfallUri": "https://scryfall.com/card/onc/2/neyali-suns-vanguard?utm_source=api"
       }
     ],
-    "priceUsd": 2.43
+    "priceUsd": 2.71
   },
   "MOC-call-for-backup": {
     "colorIdentity": [
@@ -2577,13 +2577,13 @@
         "typeLine": "Legendary Creature — Fox Shaman",
         "cmc": 4,
         "manaCost": "{1}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/a/4/a485c2c3-c90b-43b4-bb00-c1b811b4b392.jpg?1682207202",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/4/a485c2c3-c90b-43b4-bb00-c1b811b4b392.jpg?1682207202",
-        "priceUsd": 0.42,
+        "image": "https://cards.scryfall.io/normal/front/a/4/a485c2c3-c90b-43b4-bb00-c1b811b4b392.jpg?1783917295",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/4/a485c2c3-c90b-43b4-bb00-c1b811b4b392.jpg?1783917295",
+        "priceUsd": 0.37,
         "scryfallUri": "https://scryfall.com/card/moc/1/bright-palm-soul-awakener?utm_source=api"
       }
     ],
-    "priceUsd": 0.42
+    "priceUsd": 0.37
   },
   "MOC-cavalry-charge": {
     "colorIdentity": [
@@ -2607,13 +2607,13 @@
         "typeLine": "Legendary Creature — Human Knight",
         "cmc": 4,
         "manaCost": "{1}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/5/f/5fc707be-9286-4ba1-90f6-475265d19ed2.jpg?1682207238",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fc707be-9286-4ba1-90f6-475265d19ed2.jpg?1682207238",
-        "priceUsd": 0.48,
+        "image": "https://cards.scryfall.io/normal/front/5/f/5fc707be-9286-4ba1-90f6-475265d19ed2.jpg?1783917294",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fc707be-9286-4ba1-90f6-475265d19ed2.jpg?1783917294",
+        "priceUsd": 0.55,
         "scryfallUri": "https://scryfall.com/card/moc/5/sidar-jabari-of-zhalfir?utm_source=api"
       }
     ],
-    "priceUsd": 0.48
+    "priceUsd": 0.55
   },
   "MOC-divine-convocation": {
     "colorIdentity": [
@@ -2637,13 +2637,13 @@
         "typeLine": "Legendary Creature — Angel Ally",
         "cmc": 6,
         "manaCost": "{3}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/a/2/a209bda2-f0bf-4417-94f9-b73eff0b4217.jpg?1682207229",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a209bda2-f0bf-4417-94f9-b73eff0b4217.jpg?1682207229",
-        "priceUsd": 0.34,
+        "image": "https://cards.scryfall.io/normal/front/a/2/a209bda2-f0bf-4417-94f9-b73eff0b4217.jpg?1783917296",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a209bda2-f0bf-4417-94f9-b73eff0b4217.jpg?1783917296",
+        "priceUsd": 0.32,
         "scryfallUri": "https://scryfall.com/card/moc/4/kasla-the-broken-halo?utm_source=api"
       }
     ],
-    "priceUsd": 0.34
+    "priceUsd": 0.32
   },
   "MOC-growing-threat": {
     "colorIdentity": [
@@ -2665,13 +2665,13 @@
         "typeLine": "Legendary Creature — Phyrexian Cat",
         "cmc": 4,
         "manaCost": "{2}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/f/0/f0d31ae7-8580-402a-a917-3d626a9e1f49.jpg?1682207211",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/0/f0d31ae7-8580-402a-a917-3d626a9e1f49.jpg?1682207211",
-        "priceUsd": 0.51,
+        "image": "https://cards.scryfall.io/normal/front/f/0/f0d31ae7-8580-402a-a917-3d626a9e1f49.jpg?1783917295",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/0/f0d31ae7-8580-402a-a917-3d626a9e1f49.jpg?1783917295",
+        "priceUsd": 0.45,
         "scryfallUri": "https://scryfall.com/card/moc/2/brimaz-blight-of-oreskos?utm_source=api"
       }
     ],
-    "priceUsd": 0.51
+    "priceUsd": 0.45
   },
   "MOC-tinker-time": {
     "colorIdentity": [
@@ -2695,13 +2695,13 @@
         "typeLine": "Legendary Creature — Gremlin Artificer",
         "cmc": 5,
         "manaCost": "{2}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/4/a/4a9aa899-752b-4106-89ba-9475ee777d41.jpg?1682207220",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4a9aa899-752b-4106-89ba-9475ee777d41.jpg?1682207220",
-        "priceUsd": 0.23,
+        "image": "https://cards.scryfall.io/normal/front/4/a/4a9aa899-752b-4106-89ba-9475ee777d41.jpg?1783917294",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4a9aa899-752b-4106-89ba-9475ee777d41.jpg?1783917294",
+        "priceUsd": 0.25,
         "scryfallUri": "https://scryfall.com/card/moc/3/gimbal-gremlin-prodigy?utm_source=api"
       }
     ],
-    "priceUsd": 0.23
+    "priceUsd": 0.25
   },
   "SLD-from-cute-to-brute": {
     "colorIdentity": [
@@ -2731,13 +2731,13 @@
         "typeLine": "Legendary Creature — God // Legendary Enchantment",
         "cmc": 3,
         "manaCost": "{1}{G}{G}",
-        "image": "https://cards.scryfall.io/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1631050188",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1631050188",
-        "priceUsd": 19.88,
+        "image": "https://cards.scryfall.io/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1783928221",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1783928221",
+        "priceUsd": 21.52,
         "scryfallUri": "https://scryfall.com/card/khm/168/esika-god-of-the-tree-the-prismatic-bridge?utm_source=api"
       }
     ],
-    "priceUsd": 19.88
+    "priceUsd": 21.52
   },
   "SLD-angels-they-re-just-like-us-but-cooler-and-with-wings": {
     "colorIdentity": [
@@ -2757,13 +2757,13 @@
         "typeLine": "Legendary Creature — Angel Horror",
         "cmc": 4,
         "manaCost": "{2}{W}{W}",
-        "image": "https://cards.scryfall.io/normal/front/0/4/04506bad-3856-4184-8dda-941ded60f41a.jpg?1738701214",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/4/04506bad-3856-4184-8dda-941ded60f41a.jpg?1738701214",
-        "priceUsd": 19.2,
+        "image": "https://cards.scryfall.io/normal/front/0/4/04506bad-3856-4184-8dda-941ded60f41a.jpg?1783908181",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/4/04506bad-3856-4184-8dda-941ded60f41a.jpg?1783908181",
+        "priceUsd": 23.09,
         "scryfallUri": "https://scryfall.com/card/inr/24/gisela-the-broken-blade?utm_source=api"
       }
     ],
-    "priceUsd": 19.2
+    "priceUsd": 23.09
   },
   "LTC-elven-council": {
     "colorIdentity": [
@@ -2785,13 +2785,13 @@
         "typeLine": "Legendary Creature — Elf Noble",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/8/f/8fa46d54-563d-4b5c-9c69-5ab37dd529b3.jpg?1686963714",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/f/8fa46d54-563d-4b5c-9c69-5ab37dd529b3.jpg?1686963714",
-        "priceUsd": 0.33,
+        "image": "https://cards.scryfall.io/normal/front/8/f/8fa46d54-563d-4b5c-9c69-5ab37dd529b3.jpg?1783916039",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/f/8fa46d54-563d-4b5c-9c69-5ab37dd529b3.jpg?1783916039",
+        "priceUsd": 0.24,
         "scryfallUri": "https://scryfall.com/card/ltc/3/galadriel-elven-queen?utm_source=api"
       }
     ],
-    "priceUsd": 0.33
+    "priceUsd": 0.24
   },
   "LTC-food-and-fellowship": {
     "colorIdentity": [
@@ -2815,9 +2815,9 @@
         "typeLine": "Legendary Creature — Halfling Scout",
         "cmc": 2,
         "manaCost": "{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1686963703",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1686963703",
-        "priceUsd": 0.34,
+        "image": "https://cards.scryfall.io/normal/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1783916041",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1783916041",
+        "priceUsd": 0.31,
         "scryfallUri": "https://scryfall.com/card/ltc/2/frodo-adventurous-hobbit?utm_source=api"
       },
       {
@@ -2829,13 +2829,13 @@
         "typeLine": "Legendary Creature — Halfling Peasant",
         "cmc": 3,
         "manaCost": "{1}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/6/8/687a2b76-3f05-4732-bd9b-513d06d16300.jpg?1686963755",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/687a2b76-3f05-4732-bd9b-513d06d16300.jpg?1686963755",
-        "priceUsd": 0.39,
+        "image": "https://cards.scryfall.io/normal/front/6/8/687a2b76-3f05-4732-bd9b-513d06d16300.jpg?1783916039",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/687a2b76-3f05-4732-bd9b-513d06d16300.jpg?1783916039",
+        "priceUsd": 0.47,
         "scryfallUri": "https://scryfall.com/card/ltc/7/sam-loyal-attendant?utm_source=api"
       }
     ],
-    "priceUsd": 0.73
+    "priceUsd": 0.78
   },
   "LTC-riders-of-rohan": {
     "colorIdentity": [
@@ -2859,13 +2859,13 @@
         "typeLine": "Legendary Creature — Human Knight",
         "cmc": 5,
         "manaCost": "{2}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/d/d/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5.jpg?1686963690",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/d/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5.jpg?1686963690",
-        "priceUsd": 0.35,
+        "image": "https://cards.scryfall.io/normal/front/d/d/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5.jpg?1783916039",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/d/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5.jpg?1783916039",
+        "priceUsd": 0.39,
         "scryfallUri": "https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden?utm_source=api"
       }
     ],
-    "priceUsd": 0.35
+    "priceUsd": 0.39
   },
   "LTC-the-hosts-of-mordor": {
     "colorIdentity": [
@@ -2889,13 +2889,13 @@
         "typeLine": "Legendary Creature — Avatar Horror",
         "cmc": 8,
         "manaCost": "{5}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/f/c/fc53dec0-79fe-4f6f-9d5b-cf298588e808.jpg?1686963724",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/c/fc53dec0-79fe-4f6f-9d5b-cf298588e808.jpg?1686963724",
-        "priceUsd": 0.46,
+        "image": "https://cards.scryfall.io/normal/front/f/c/fc53dec0-79fe-4f6f-9d5b-cf298588e808.jpg?1783916038",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/c/fc53dec0-79fe-4f6f-9d5b-cf298588e808.jpg?1783916038",
+        "priceUsd": 0.51,
         "scryfallUri": "https://scryfall.com/card/ltc/4/sauron-lord-of-the-rings?utm_source=api"
       }
     ],
-    "priceUsd": 0.46
+    "priceUsd": 0.51
   },
   "CMM-eldrazi-unbound": {
     "colorIdentity": [],
@@ -2910,8 +2910,8 @@
         "typeLine": "Legendary Creature — Eldrazi",
         "cmc": 6,
         "manaCost": "{5}{C}",
-        "image": "https://cards.scryfall.io/normal/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1691500689",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1691500689",
+        "image": "https://cards.scryfall.io/normal/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1783915492",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1783915492",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cmm/704/zhulodok-void-gorger?utm_source=api"
       }
@@ -2939,8 +2939,8 @@
         "typeLine": "Legendary Enchantment Creature — Demigod",
         "cmc": 5,
         "manaCost": "{2}{W}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1691500693",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1691500693",
+        "image": "https://cards.scryfall.io/normal/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1783915491",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1783915491",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cmm/705/anikthea-hand-of-erebos?utm_source=api"
       }
@@ -2968,8 +2968,8 @@
         "typeLine": "Legendary Planeswalker — Guff",
         "cmc": 4,
         "manaCost": "{1}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/9/2/92870fc6-a6bc-4198-bb31-397e07e0e835.jpg?1691500696",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/2/92870fc6-a6bc-4198-bb31-397e07e0e835.jpg?1691500696",
+        "image": "https://cards.scryfall.io/normal/front/9/2/92870fc6-a6bc-4198-bb31-397e07e0e835.jpg?1783915490",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/2/92870fc6-a6bc-4198-bb31-397e07e0e835.jpg?1783915490",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cmm/706/commodore-guff?utm_source=api"
       }
@@ -3001,8 +3001,8 @@
         "typeLine": "Legendary Creature — Sliver",
         "cmc": 5,
         "manaCost": "{W}{U}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/9/f/9f5d253e-9eb2-423c-90ee-68f27ec6bf88.jpg?1691500699",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f5d253e-9eb2-423c-90ee-68f27ec6bf88.jpg?1691500699",
+        "image": "https://cards.scryfall.io/normal/front/9/f/9f5d253e-9eb2-423c-90ee-68f27ec6bf88.jpg?1783915490",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f5d253e-9eb2-423c-90ee-68f27ec6bf88.jpg?1783915490",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/cmm/707/sliver-gravemother?utm_source=api"
       }
@@ -3029,13 +3029,13 @@
         "typeLine": "Legendary Creature — Faerie Noble",
         "cmc": 3,
         "manaCost": "{1}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/0/3/03fab911-7bd4-45fa-ba07-cd0e51b0cd95.jpg?1692933608",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/3/03fab911-7bd4-45fa-ba07-cd0e51b0cd95.jpg?1692933608",
-        "priceUsd": 5.55,
+        "image": "https://cards.scryfall.io/normal/front/0/3/03fab911-7bd4-45fa-ba07-cd0e51b0cd95.jpg?1783914991",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/3/03fab911-7bd4-45fa-ba07-cd0e51b0cd95.jpg?1783914991",
+        "priceUsd": 4.55,
         "scryfallUri": "https://scryfall.com/card/woc/1/tegwyll-duke-of-splendor?utm_source=api"
       }
     ],
-    "priceUsd": 5.55
+    "priceUsd": 4.55
   },
   "WOC-virtue-and-valor": {
     "colorIdentity": [
@@ -3057,13 +3057,13 @@
         "typeLine": "Legendary Creature — Human Knight",
         "cmc": 4,
         "manaCost": "{2}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/4/5/45851394-b8f3-4713-8239-afcb387d47c5.jpg?1692933623",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/5/45851394-b8f3-4713-8239-afcb387d47c5.jpg?1692933623",
-        "priceUsd": 0.44,
+        "image": "https://cards.scryfall.io/normal/front/4/5/45851394-b8f3-4713-8239-afcb387d47c5.jpg?1783914992",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/5/45851394-b8f3-4713-8239-afcb387d47c5.jpg?1783914992",
+        "priceUsd": 0.42,
         "scryfallUri": "https://scryfall.com/card/woc/2/ellivere-of-the-wild-court?utm_source=api"
       }
     ],
-    "priceUsd": 0.44
+    "priceUsd": 0.42
   },
   "WHO-blast-from-the-past": {
     "colorIdentity": [
@@ -3089,8 +3089,8 @@
         "typeLine": "Legendary Creature — Time Lord Doctor",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/c/8/c84ea0fd-efc7-4614-9f8f-41a3c71fceaa.jpg?1696636503",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/8/c84ea0fd-efc7-4614-9f8f-41a3c71fceaa.jpg?1696636503",
+        "image": "https://cards.scryfall.io/normal/front/c/8/c84ea0fd-efc7-4614-9f8f-41a3c71fceaa.jpg?1783914689",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/8/c84ea0fd-efc7-4614-9f8f-41a3c71fceaa.jpg?1783914689",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/2/the-fourth-doctor?utm_source=api"
       },
@@ -3102,8 +3102,8 @@
         "typeLine": "Legendary Creature — Human Detective",
         "cmc": 2,
         "manaCost": "{1}{W}",
-        "image": "https://cards.scryfall.io/normal/front/1/b/1ba76f68-e647-4786-903c-92dbd3cef05d.jpg?1696691789",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/b/1ba76f68-e647-4786-903c-92dbd3cef05d.jpg?1696691789",
+        "image": "https://cards.scryfall.io/normal/front/1/b/1ba76f68-e647-4786-903c-92dbd3cef05d.jpg?1783914687",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/b/1ba76f68-e647-4786-903c-92dbd3cef05d.jpg?1783914687",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/6/sarah-jane-smith?utm_source=api"
       }
@@ -3132,8 +3132,8 @@
         "typeLine": "Legendary Artifact Creature — Alien Scientist",
         "cmc": 4,
         "manaCost": "{1}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/5/9/59c5bd2b-cf68-4e5e-819d-53917a6c5275.jpg?1696636503",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/59c5bd2b-cf68-4e5e-819d-53917a6c5275.jpg?1696636503",
+        "image": "https://cards.scryfall.io/normal/front/5/9/59c5bd2b-cf68-4e5e-819d-53917a6c5275.jpg?1783914687",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/59c5bd2b-cf68-4e5e-819d-53917a6c5275.jpg?1783914687",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/1/davros-dalek-creator?utm_source=api"
       }
@@ -3164,8 +3164,8 @@
         "typeLine": "Legendary Creature — Time Lord Doctor",
         "cmc": 3,
         "manaCost": "{1}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/0/d/0dc4ec90-1650-4b98-9350-66341394cf0b.jpg?1696636504",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0dc4ec90-1650-4b98-9350-66341394cf0b.jpg?1696636504",
+        "image": "https://cards.scryfall.io/normal/front/0/d/0dc4ec90-1650-4b98-9350-66341394cf0b.jpg?1783914685",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0dc4ec90-1650-4b98-9350-66341394cf0b.jpg?1783914685",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/4/the-thirteenth-doctor?utm_source=api"
       },
@@ -3177,8 +3177,8 @@
         "typeLine": "Legendary Creature — Human Detective",
         "cmc": 4,
         "manaCost": "{3}{R}",
-        "image": "https://cards.scryfall.io/normal/front/1/2/12b09a4f-bb62-4766-8115-cae4d5cc4c12.jpg?1696691790",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/2/12b09a4f-bb62-4766-8115-cae4d5cc4c12.jpg?1696691790",
+        "image": "https://cards.scryfall.io/normal/front/1/2/12b09a4f-bb62-4766-8115-cae4d5cc4c12.jpg?1783914687",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/2/12b09a4f-bb62-4766-8115-cae4d5cc4c12.jpg?1783914687",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/7/yasmin-khan?utm_source=api"
       }
@@ -3208,8 +3208,8 @@
         "typeLine": "Legendary Creature — Time Lord Doctor",
         "cmc": 5,
         "manaCost": "{3}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/f/1/f1499f49-793b-4265-9ad0-883a431941ab.jpg?1696636503",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/1/f1499f49-793b-4265-9ad0-883a431941ab.jpg?1696636503",
+        "image": "https://cards.scryfall.io/normal/front/f/1/f1499f49-793b-4265-9ad0-883a431941ab.jpg?1783914687",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/1/f1499f49-793b-4265-9ad0-883a431941ab.jpg?1783914687",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/3/the-tenth-doctor?utm_source=api"
       },
@@ -3221,8 +3221,8 @@
         "typeLine": "Legendary Creature — Human",
         "cmc": 2,
         "manaCost": "{1}{W}",
-        "image": "https://cards.scryfall.io/normal/front/3/a/3aa8d034-f98c-4e27-b6af-850eadf59941.jpg?1696691620",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/a/3aa8d034-f98c-4e27-b6af-850eadf59941.jpg?1696691620",
+        "image": "https://cards.scryfall.io/normal/front/3/a/3aa8d034-f98c-4e27-b6af-850eadf59941.jpg?1783914686",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/a/3aa8d034-f98c-4e27-b6af-850eadf59941.jpg?1783914686",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/who/5/rose-tyler?utm_source=api"
       }
@@ -3251,13 +3251,13 @@
         "typeLine": "Legendary Creature — Human Pirate",
         "cmc": 5,
         "manaCost": "{2}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1699972732",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1699972732",
-        "priceUsd": 0.31,
+        "image": "https://cards.scryfall.io/normal/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1783913937",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1783913937",
+        "priceUsd": 0.26,
         "scryfallUri": "https://scryfall.com/card/lcc/1/admiral-brass-unsinkable?utm_source=api"
       }
     ],
-    "priceUsd": 0.31
+    "priceUsd": 0.26
   },
   "LCC-blood-rites": {
     "colorIdentity": [
@@ -3279,13 +3279,13 @@
         "typeLine": "Legendary Creature — Vampire Cleric",
         "cmc": 3,
         "manaCost": "{1}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/9/f/9f55b648-b1ec-407a-a0c7-7647755793d1.jpg?1699972735",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f55b648-b1ec-407a-a0c7-7647755793d1.jpg?1699972735",
-        "priceUsd": 0.61,
+        "image": "https://cards.scryfall.io/normal/front/9/f/9f55b648-b1ec-407a-a0c7-7647755793d1.jpg?1783913936",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f55b648-b1ec-407a-a0c7-7647755793d1.jpg?1783913936",
+        "priceUsd": 0.72,
         "scryfallUri": "https://scryfall.com/card/lcc/2/clavile%C3%B1o-first-of-the-blessed?utm_source=api"
       }
     ],
-    "priceUsd": 0.61
+    "priceUsd": 0.72
   },
   "LCC-explorers-of-the-deep": {
     "colorIdentity": [
@@ -3307,13 +3307,13 @@
         "typeLine": "Legendary Creature — Merfolk Scout",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1699885010",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1699885010",
-        "priceUsd": 0.44,
+        "image": "https://cards.scryfall.io/normal/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1783913937",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1783913937",
+        "priceUsd": 0.39,
         "scryfallUri": "https://scryfall.com/card/lcc/3/hakbal-of-the-surging-soul?utm_source=api"
       }
     ],
-    "priceUsd": 0.44
+    "priceUsd": 0.39
   },
   "LCC-veloci-ramp-tor": {
     "colorIdentity": [
@@ -3336,13 +3336,13 @@
         "typeLine": "Legendary Creature — Dinosaur",
         "cmc": 5,
         "manaCost": "{2}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1699972737",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1699972737",
-        "priceUsd": 2.31,
+        "image": "https://cards.scryfall.io/normal/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1783913937",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1783913937",
+        "priceUsd": 5.47,
         "scryfallUri": "https://scryfall.com/card/lcc/4/pantlaza-sun-favored?utm_source=api"
       }
     ],
-    "priceUsd": 2.31
+    "priceUsd": 5.47
   },
   "SLD-raining-cats-dogs": {
     "colorIdentity": [
@@ -3366,13 +3366,13 @@
         "typeLine": "Legendary Creature — Dog Cat",
         "cmc": 4,
         "manaCost": "{1}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1779796346",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1779796346",
-        "priceUsd": null,
-        "scryfallUri": "https://scryfall.com/card/sld/2668/rin-and-seri-inseparable?utm_source=api"
+        "image": "https://cards.scryfall.io/normal/front/d/6/d605c780-a42a-4816-8fb9-63e3114a8246.jpg?1784483577",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/6/d605c780-a42a-4816-8fb9-63e3114a8246.jpg?1784483577",
+        "priceUsd": 32.49,
+        "scryfallUri": "https://scryfall.com/card/m21/278/rin-and-seri-inseparable?utm_source=api"
       }
     ],
-    "priceUsd": null
+    "priceUsd": 32.49
   },
   "MKC-blame-game": {
     "colorIdentity": [
@@ -3394,8 +3394,8 @@
         "typeLine": "Legendary Creature — Human Detective",
         "cmc": 4,
         "manaCost": "{2}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/2/e/2ef59aa9-f5e1-413a-869b-d287db95efd0.jpg?1706448880",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/e/2ef59aa9-f5e1-413a-869b-d287db95efd0.jpg?1706448880",
+        "image": "https://cards.scryfall.io/normal/front/2/e/2ef59aa9-f5e1-413a-869b-d287db95efd0.jpg?1783913057",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/e/2ef59aa9-f5e1-413a-869b-d287db95efd0.jpg?1783913057",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/mkc/4/nelly-borca-impulsive-accuser?utm_source=api"
       }
@@ -3424,8 +3424,8 @@
         "typeLine": "Legendary Creature — Dryad Detective",
         "cmc": 2,
         "manaCost": "{R/W}{G}",
-        "image": "https://cards.scryfall.io/normal/front/6/4/648c15d1-a2a2-4f59-9b0a-5448be3e990f.jpg?1706448869",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/4/648c15d1-a2a2-4f59-9b0a-5448be3e990f.jpg?1706448869",
+        "image": "https://cards.scryfall.io/normal/front/6/4/648c15d1-a2a2-4f59-9b0a-5448be3e990f.jpg?1783913056",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/4/648c15d1-a2a2-4f59-9b0a-5448be3e990f.jpg?1783913056",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/mkc/1/kaust-eyes-of-the-glade?utm_source=api"
       }
@@ -3455,8 +3455,8 @@
         "typeLine": "Legendary Creature — Vedalken Fish Detective",
         "cmc": 3,
         "manaCost": "{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/a/e/ae9ccfec-05c6-469e-b1dd-dfbafa1e927f.jpg?1706448877",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/e/ae9ccfec-05c6-469e-b1dd-dfbafa1e927f.jpg?1706448877",
+        "image": "https://cards.scryfall.io/normal/front/a/e/ae9ccfec-05c6-469e-b1dd-dfbafa1e927f.jpg?1783913056",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/e/ae9ccfec-05c6-469e-b1dd-dfbafa1e927f.jpg?1783913056",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/mkc/3/morska-undersea-sleuth?utm_source=api"
       }
@@ -3483,8 +3483,8 @@
         "typeLine": "Legendary Creature — Vampire Detective",
         "cmc": 3,
         "manaCost": "{1}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/6/9/690acbbf-5e92-4323-b939-31bdb07f9905.jpg?1706448873",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/9/690acbbf-5e92-4323-b939-31bdb07f9905.jpg?1706448873",
+        "image": "https://cards.scryfall.io/normal/front/6/9/690acbbf-5e92-4323-b939-31bdb07f9905.jpg?1783913056",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/9/690acbbf-5e92-4323-b939-31bdb07f9905.jpg?1783913056",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/mkc/2/mirko-obsessive-theorist?utm_source=api"
       }
@@ -3513,8 +3513,8 @@
         "typeLine": "Legendary Creature — Human Soldier",
         "cmc": 4,
         "manaCost": "{1}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1710673450",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1710673450",
+        "image": "https://cards.scryfall.io/normal/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1783912422",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1783912422",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/pip/1/caesar-legions-emperor?utm_source=api"
       }
@@ -3543,13 +3543,13 @@
         "typeLine": "Legendary Creature — Insect Mutant",
         "cmc": 4,
         "manaCost": "{1}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1769163701",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1769163701",
-        "priceUsd": 9.48,
+        "image": "https://cards.scryfall.io/normal/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1783904269",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1783904269",
+        "priceUsd": 10.96,
         "scryfallUri": "https://scryfall.com/card/sld/2455/the-wise-mothman?utm_source=api"
       }
     ],
-    "priceUsd": 9.48
+    "priceUsd": 10.96
   },
   "PIP-science": {
     "colorIdentity": [
@@ -3573,8 +3573,8 @@
         "typeLine": "Legendary Creature — Human Scientist",
         "cmc": 3,
         "manaCost": "{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/9/5/95af426d-a8af-4314-9ad0-ac61935e8e8e.jpg?1710673440",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/5/95af426d-a8af-4314-9ad0-ac61935e8e8e.jpg?1710673440",
+        "image": "https://cards.scryfall.io/normal/front/9/5/95af426d-a8af-4314-9ad0-ac61935e8e8e.jpg?1783912422",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/5/95af426d-a8af-4314-9ad0-ac61935e8e8e.jpg?1783912422",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/pip/3/dr-madison-li?utm_source=api"
       }
@@ -3602,8 +3602,8 @@
         "typeLine": "Legendary Creature — Dog",
         "cmc": 3,
         "manaCost": "{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.jpg?1710673445",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.jpg?1710673445",
+        "image": "https://cards.scryfall.io/normal/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.jpg?1783912422",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.jpg?1783912422",
         "priceUsd": null,
         "scryfallUri": "https://scryfall.com/card/pip/2/dogmeat-ever-loyal?utm_source=api"
       }
@@ -3632,13 +3632,13 @@
         "typeLine": "Legendary Creature — Human Ranger",
         "cmc": 8,
         "manaCost": "{5}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/1/8/18df72be-07d2-4412-b36d-a45119763db3.jpg?1714110413",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/8/18df72be-07d2-4412-b36d-a45119763db3.jpg?1714110413",
-        "priceUsd": 0.43,
+        "image": "https://cards.scryfall.io/normal/front/1/8/18df72be-07d2-4412-b36d-a45119763db3.jpg?1783911971",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/8/18df72be-07d2-4412-b36d-a45119763db3.jpg?1783911971",
+        "priceUsd": 0.4,
         "scryfallUri": "https://scryfall.com/card/otc/4/yuma-proud-protector?utm_source=api"
       }
     ],
-    "priceUsd": 0.43
+    "priceUsd": 0.4
   },
   "OTC-grand-larceny": {
     "colorIdentity": [
@@ -3662,13 +3662,13 @@
         "typeLine": "Legendary Creature — Aetherborn Rogue",
         "cmc": 5,
         "manaCost": "{2}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/0/3/03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0.jpg?1714110365",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/3/03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0.jpg?1714110365",
-        "priceUsd": 1.35,
+        "image": "https://cards.scryfall.io/normal/front/0/3/03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0.jpg?1783911972",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/3/03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0.jpg?1783911972",
+        "priceUsd": 1.59,
         "scryfallUri": "https://scryfall.com/card/otc/1/gonti-canny-acquisitor?utm_source=api"
       }
     ],
-    "priceUsd": 1.35
+    "priceUsd": 1.59
   },
   "OTC-most-wanted": {
     "colorIdentity": [
@@ -3692,13 +3692,13 @@
         "typeLine": "Legendary Creature — Vampire Assassin",
         "cmc": 4,
         "manaCost": "{1}{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/5/5/55e6c31b-f9e9-4e42-a875-985d99300d9d.jpg?1714110406",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/55e6c31b-f9e9-4e42-a875-985d99300d9d.jpg?1714110406",
-        "priceUsd": 4.86,
+        "image": "https://cards.scryfall.io/normal/front/5/5/55e6c31b-f9e9-4e42-a875-985d99300d9d.jpg?1783911972",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/55e6c31b-f9e9-4e42-a875-985d99300d9d.jpg?1783911972",
+        "priceUsd": 6.45,
         "scryfallUri": "https://scryfall.com/card/otc/2/olivia-opulent-outlaw?utm_source=api"
       }
     ],
-    "priceUsd": 4.86
+    "priceUsd": 6.45
   },
   "OTC-quick-draw": {
     "colorIdentity": [
@@ -3720,13 +3720,13 @@
         "typeLine": "Legendary Creature — Human Rogue",
         "cmc": 3,
         "manaCost": "{1}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
-        "priceUsd": 4.43,
+        "image": "https://cards.scryfall.io/normal/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1783911971",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1783911971",
+        "priceUsd": 5.24,
         "scryfallUri": "https://scryfall.com/card/otc/3/stella-lee-wild-card?utm_source=api"
       }
     ],
-    "priceUsd": 4.43
+    "priceUsd": 5.24
   },
   "M3C-creative-energy": {
     "colorIdentity": [
@@ -3750,8 +3750,8 @@
         "typeLine": "Legendary Creature — Human Artificer",
         "cmc": 4,
         "manaCost": "{1}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/3/b/3b964bbe-54cc-425c-9cc6-c877f82af7ba.jpg?1727175658",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/b/3b964bbe-54cc-425c-9cc6-c877f82af7ba.jpg?1727175658",
+        "image": "https://cards.scryfall.io/normal/front/3/b/3b964bbe-54cc-425c-9cc6-c877f82af7ba.jpg?1783911437",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/b/3b964bbe-54cc-425c-9cc6-c877f82af7ba.jpg?1783911437",
         "priceUsd": 0.28,
         "scryfallUri": "https://scryfall.com/card/m3c/3/satya-aetherflux-genius?utm_source=api"
       }
@@ -3783,13 +3783,13 @@
         "typeLine": "Legendary Creature — Eldrazi",
         "cmc": 5,
         "manaCost": "{C/W}{C/U}{C/B}{C/R}{C/G}",
-        "image": "https://cards.scryfall.io/normal/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1735676761",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1735676761",
-        "priceUsd": 0.52,
+        "image": "https://cards.scryfall.io/normal/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1783911439",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1783911439",
+        "priceUsd": 0.93,
         "scryfallUri": "https://scryfall.com/card/m3c/4/ulalek-fused-atrocity?utm_source=api"
       }
     ],
-    "priceUsd": 0.52
+    "priceUsd": 0.93
   },
   "M3C-graveyard-overdrive": {
     "colorIdentity": [
@@ -3813,13 +3813,13 @@
         "typeLine": "Legendary Creature — Human Scout",
         "cmc": 5,
         "manaCost": "{2}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/c/9/c976edeb-0fa1-4647-a16c-870d8a3c30c6.jpg?1727175653",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c976edeb-0fa1-4647-a16c-870d8a3c30c6.jpg?1727175653",
-        "priceUsd": 0.16,
+        "image": "https://cards.scryfall.io/normal/front/c/9/c976edeb-0fa1-4647-a16c-870d8a3c30c6.jpg?1783911438",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c976edeb-0fa1-4647-a16c-870d8a3c30c6.jpg?1783911438",
+        "priceUsd": 0.13,
         "scryfallUri": "https://scryfall.com/card/m3c/1/disa-the-restless?utm_source=api"
       }
     ],
-    "priceUsd": 0.16
+    "priceUsd": 0.13
   },
   "M3C-tricky-terrain": {
     "colorIdentity": [
@@ -3841,13 +3841,13 @@
         "typeLine": "Legendary Creature — Shapeshifter Noble",
         "cmc": 3,
         "manaCost": "{2}{G/U}",
-        "image": "https://cards.scryfall.io/normal/front/e/5/e5d1c814-4c22-4917-95ae-dffaf491db32.jpg?1727175657",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/e/5/e5d1c814-4c22-4917-95ae-dffaf491db32.jpg?1727175657",
-        "priceUsd": 0.29,
+        "image": "https://cards.scryfall.io/normal/front/e/5/e5d1c814-4c22-4917-95ae-dffaf491db32.jpg?1783911439",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/e/5/e5d1c814-4c22-4917-95ae-dffaf491db32.jpg?1783911439",
+        "priceUsd": 0.31,
         "scryfallUri": "https://scryfall.com/card/m3c/2/omo-queen-of-vesuva?utm_source=api"
       }
     ],
-    "priceUsd": 0.29
+    "priceUsd": 0.31
   },
   "BLC-animated-army": {
     "colorIdentity": [
@@ -3869,13 +3869,13 @@
         "typeLine": "Legendary Creature — Raccoon Bard",
         "cmc": 3,
         "manaCost": "{1}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1721428130",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1721428130",
-        "priceUsd": 1.49,
+        "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1783910738",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1783910738",
+        "priceUsd": 2.9,
         "scryfallUri": "https://scryfall.com/card/blc/1/bello-bard-of-the-brambles?utm_source=api"
       }
     ],
-    "priceUsd": 1.49
+    "priceUsd": 2.9
   },
   "BLC-family-matters": {
     "colorIdentity": [
@@ -3899,13 +3899,13 @@
         "typeLine": "Legendary Creature — Bird Bard",
         "cmc": 3,
         "manaCost": "{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1767812833",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1767812833",
-        "priceUsd": 0.62,
+        "image": "https://cards.scryfall.io/normal/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1783910737",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1783910737",
+        "priceUsd": 0.44,
         "scryfallUri": "https://scryfall.com/card/blc/4/zinnia-valleys-voice?utm_source=api"
       }
     ],
-    "priceUsd": 0.62
+    "priceUsd": 0.44
   },
   "BLC-peace-offering": {
     "colorIdentity": [
@@ -3929,13 +3929,13 @@
         "typeLine": "Legendary Creature — Rabbit Citizen",
         "cmc": 4,
         "manaCost": "{1}{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
-        "priceUsd": 9.21,
+        "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1783910739",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1783910739",
+        "priceUsd": 6.71,
         "scryfallUri": "https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=api"
       }
     ],
-    "priceUsd": 9.21
+    "priceUsd": 6.71
   },
   "BLC-squirreled-away": {
     "colorIdentity": [
@@ -3957,13 +3957,13 @@
         "typeLine": "Legendary Creature — Squirrel Druid",
         "cmc": 4,
         "manaCost": "{2}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1721428131",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1721428131",
-        "priceUsd": 3.38,
+        "image": "https://cards.scryfall.io/normal/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1783910738",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1783910738",
+        "priceUsd": 4.07,
         "scryfallUri": "https://scryfall.com/card/blc/2/hazel-of-the-rootbloom?utm_source=api"
       }
     ],
-    "priceUsd": 3.38
+    "priceUsd": 4.07
   },
   "DSC-death-toll": {
     "colorIdentity": [
@@ -3985,8 +3985,8 @@
         "typeLine": "Legendary Creature — Human Warlock",
         "cmc": 4,
         "manaCost": "{2}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1726596850",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1726596850",
+        "image": "https://cards.scryfall.io/normal/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1783909662",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1783909662",
         "priceUsd": 0.37,
         "scryfallUri": "https://scryfall.com/card/dsc/7/winter-cynical-opportunist?utm_source=api"
       }
@@ -4013,13 +4013,13 @@
         "typeLine": "Legendary Creature — Elder Demon",
         "cmc": 4,
         "manaCost": "{2}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/d/8d7c1f6c-af45-4449-8cf8-e13830b3df8a.jpg?1726596807",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d7c1f6c-af45-4449-8cf8-e13830b3df8a.jpg?1726596807",
-        "priceUsd": 17.63,
+        "image": "https://cards.scryfall.io/normal/front/8/d/8d7c1f6c-af45-4449-8cf8-e13830b3df8a.jpg?1783909662",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d7c1f6c-af45-4449-8cf8-e13830b3df8a.jpg?1783909662",
+        "priceUsd": 22.46,
         "scryfallUri": "https://scryfall.com/card/dsc/6/valgavoth-harrower-of-souls?utm_source=api"
       }
     ],
-    "priceUsd": 17.63
+    "priceUsd": 22.46
   },
   "DSC-jump-scare": {
     "colorIdentity": [
@@ -4041,13 +4041,13 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 4,
         "manaCost": "{2}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/3/0/30f23588-5064-48d9-a271-039df757f8d2.jpg?1726596680",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/0/30f23588-5064-48d9-a271-039df757f8d2.jpg?1726596680",
-        "priceUsd": 0.57,
+        "image": "https://cards.scryfall.io/normal/front/3/0/30f23588-5064-48d9-a271-039df757f8d2.jpg?1783909663",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/0/30f23588-5064-48d9-a271-039df757f8d2.jpg?1783909663",
+        "priceUsd": 0.46,
         "scryfallUri": "https://scryfall.com/card/dsc/8/zimone-mystery-unraveler?utm_source=api"
       }
     ],
-    "priceUsd": 0.57
+    "priceUsd": 0.46
   },
   "DSC-miracle-worker": {
     "colorIdentity": [
@@ -4071,13 +4071,13 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 4,
         "manaCost": "{1}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
-        "priceUsd": 0.68,
+        "image": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1783909663",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1783909663",
+        "priceUsd": 0.59,
         "scryfallUri": "https://scryfall.com/card/dsc/1/aminatou-veil-piercer?utm_source=api"
       }
     ],
-    "priceUsd": 0.68
+    "priceUsd": 0.59
   },
   "SLD-20-ways-to-win": {
     "colorIdentity": [
@@ -4104,13 +4104,13 @@
         "typeLine": "Legendary Enchantment Creature — Shrine",
         "cmc": 4,
         "manaCost": "{3}{G}",
-        "image": "https://cards.scryfall.io/normal/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.jpg?1723704351",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.jpg?1723704351",
-        "priceUsd": 11.58,
+        "image": "https://cards.scryfall.io/normal/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.jpg?1783923985",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.jpg?1783923985",
+        "priceUsd": 8.04,
         "scryfallUri": "https://scryfall.com/card/nec/37/go-shintai-of-lifes-origin?utm_source=api"
       }
     ],
-    "priceUsd": 11.58
+    "priceUsd": 8.04
   },
   "DRC-eternal-might": {
     "colorIdentity": [
@@ -4134,13 +4134,13 @@
         "typeLine": "Legendary Creature — Zombie Wizard",
         "cmc": 5,
         "manaCost": "{2}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/c/0/c0629894-0b72-4abe-9771-03becfdb241c.jpg?1747231842",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0629894-0b72-4abe-9771-03becfdb241c.jpg?1747231842",
-        "priceUsd": 0.36,
+        "image": "https://cards.scryfall.io/normal/front/c/0/c0629894-0b72-4abe-9771-03becfdb241c.jpg?1783907753",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0629894-0b72-4abe-9771-03becfdb241c.jpg?1783907753",
+        "priceUsd": 0.38,
         "scryfallUri": "https://scryfall.com/card/drc/4/temmet-naktamuns-will?utm_source=api"
       }
     ],
-    "priceUsd": 0.36
+    "priceUsd": 0.38
   },
   "DRC-living-energy": {
     "colorIdentity": [
@@ -4164,13 +4164,13 @@
         "typeLine": "Legendary Creature — Human Artificer",
         "cmc": 4,
         "manaCost": "{1}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/5/f/5fea0781-e933-47ef-9414-92c8652a7778.jpg?1747231838",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fea0781-e933-47ef-9414-92c8652a7778.jpg?1747231838",
-        "priceUsd": 0.23,
+        "image": "https://cards.scryfall.io/normal/front/5/f/5fea0781-e933-47ef-9414-92c8652a7778.jpg?1783907753",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fea0781-e933-47ef-9414-92c8652a7778.jpg?1783907753",
+        "priceUsd": 0.33,
         "scryfallUri": "https://scryfall.com/card/drc/3/saheeli-radiant-creator?utm_source=api"
       }
     ],
-    "priceUsd": 0.23
+    "priceUsd": 0.33
   },
   "TDC-abzan-armor": {
     "colorIdentity": [
@@ -4194,13 +4194,13 @@
         "typeLine": "Legendary Creature — Human Warrior",
         "cmc": 4,
         "manaCost": "{1}{W}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1745970956",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1745970956",
-        "priceUsd": 5.62,
+        "image": "https://cards.scryfall.io/normal/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1783907190",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1783907190",
+        "priceUsd": 3.12,
         "scryfallUri": "https://scryfall.com/card/tdc/4/felothar-the-steadfast?utm_source=api"
       }
     ],
-    "priceUsd": 5.62
+    "priceUsd": 3.12
   },
   "TDC-jeskai-striker": {
     "colorIdentity": [
@@ -4225,13 +4225,13 @@
         "typeLine": "Legendary Creature — Human Spirit Dragon",
         "cmc": 4,
         "manaCost": "{1}{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1745970975",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1745970975",
-        "priceUsd": 1.08,
+        "image": "https://cards.scryfall.io/normal/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1783907190",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1783907190",
+        "priceUsd": 0.89,
         "scryfallUri": "https://scryfall.com/card/tdc/7/shiko-and-narset-unified?utm_source=api"
       }
     ],
-    "priceUsd": 1.08
+    "priceUsd": 0.89
   },
   "TDC-mardu-surge": {
     "colorIdentity": [
@@ -4255,13 +4255,13 @@
         "typeLine": "Legendary Creature — Orc Warrior",
         "cmc": 3,
         "manaCost": "{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1745970988",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1745970988",
-        "priceUsd": 4.37,
+        "image": "https://cards.scryfall.io/normal/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1783907186",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1783907186",
+        "priceUsd": 5.04,
         "scryfallUri": "https://scryfall.com/card/tdc/10/zurgo-stormrender?utm_source=api"
       }
     ],
-    "priceUsd": 4.37
+    "priceUsd": 5.04
   },
   "TDC-sultai-arisen": {
     "colorIdentity": [
@@ -4285,13 +4285,13 @@
         "typeLine": "Legendary Creature — Spirit Dragon",
         "cmc": 4,
         "manaCost": "{1}{B}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1745970978",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1745970978",
-        "priceUsd": 7.51,
+        "image": "https://cards.scryfall.io/normal/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1783907184",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1783907184",
+        "priceUsd": 5.23,
         "scryfallUri": "https://scryfall.com/card/tdc/8/teval-the-balanced-scale?utm_source=api"
       }
     ],
-    "priceUsd": 7.51
+    "priceUsd": 5.23
   },
   "TDC-temur-roar": {
     "colorIdentity": [
@@ -4315,13 +4315,13 @@
         "typeLine": "Legendary Creature — Spirit Dragon",
         "cmc": 7,
         "manaCost": "{4}{G}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1745970982",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1745970982",
-        "priceUsd": 14.03,
+        "image": "https://cards.scryfall.io/normal/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1783907187",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1783907187",
+        "priceUsd": 17.01,
         "scryfallUri": "https://scryfall.com/card/tdc/9/ureni-of-the-unwritten?utm_source=api"
       }
     ],
-    "priceUsd": 14.03
+    "priceUsd": 17.01
   },
   "SLD-everyone-s-invited": {
     "colorIdentity": [
@@ -4348,13 +4348,13 @@
         "typeLine": "Legendary Creature — Shapeshifter",
         "cmc": 7,
         "manaCost": "{7}",
-        "image": "https://cards.scryfall.io/normal/front/8/4/84238335-e08c-421c-b9b9-70a679ff2967.jpg?1689995411",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/4/84238335-e08c-421c-b9b9-70a679ff2967.jpg?1689995411",
-        "priceUsd": 8.26,
+        "image": "https://cards.scryfall.io/normal/front/8/4/84238335-e08c-421c-b9b9-70a679ff2967.jpg?1783916893",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/4/84238335-e08c-421c-b9b9-70a679ff2967.jpg?1783916893",
+        "priceUsd": 8.38,
         "scryfallUri": "https://scryfall.com/card/cmm/3/morophon-the-boundless?utm_source=api"
       }
     ],
-    "priceUsd": 8.26
+    "priceUsd": 8.38
   },
   "FIC-counter-blitz": {
     "colorIdentity": [
@@ -4378,13 +4378,13 @@
         "typeLine": "Legendary Creature — Human Warrior",
         "cmc": 3,
         "manaCost": "{G}{W}{U}",
-        "image": "https://cards.scryfall.io/normal/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1752052930",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1752052930",
-        "priceUsd": 2.79,
+        "image": "https://cards.scryfall.io/normal/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1783906372",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1783906372",
+        "priceUsd": 2.71,
         "scryfallUri": "https://scryfall.com/card/fic/5/tidus-yunas-guardian?utm_source=api"
       }
     ],
-    "priceUsd": 2.79
+    "priceUsd": 2.71
   },
   "FIC-limit-break": {
     "colorIdentity": [
@@ -4409,13 +4409,13 @@
         "typeLine": "Legendary Creature — Human Soldier Mercenary",
         "cmc": 5,
         "manaCost": "{2}{R}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1752052926",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1752052926",
-        "priceUsd": 1.68,
+        "image": "https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375",
+        "priceUsd": 1.51,
         "scryfallUri": "https://scryfall.com/card/fic/2/cloud-ex-soldier?utm_source=api"
       }
     ],
-    "priceUsd": 1.68
+    "priceUsd": 1.51
   },
   "FIC-revival-trance": {
     "colorIdentity": [
@@ -4440,13 +4440,13 @@
         "typeLine": "Legendary Creature — Human Wizard Warrior",
         "cmc": 3,
         "manaCost": "{R}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1752052929",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1752052929",
-        "priceUsd": 1.39,
+        "image": "https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373",
+        "priceUsd": 1.26,
         "scryfallUri": "https://scryfall.com/card/fic/4/terra-herald-of-hope?utm_source=api"
       }
     ],
-    "priceUsd": 1.39
+    "priceUsd": 1.26
   },
   "FIC-scions-spellcraft": {
     "colorIdentity": [
@@ -4470,13 +4470,13 @@
         "typeLine": "Legendary Creature — Cat Warlock",
         "cmc": 4,
         "manaCost": "{1}{W}{U}{B}",
-        "image": "https://cards.scryfall.io/normal/front/c/7/c7f2c2d5-e052-49e8-b5de-712858c2ea78.jpg?1752052932",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/7/c7f2c2d5-e052-49e8-b5de-712858c2ea78.jpg?1752052932",
-        "priceUsd": 3.57,
+        "image": "https://cards.scryfall.io/normal/front/c/7/c7f2c2d5-e052-49e8-b5de-712858c2ea78.jpg?1783906373",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/7/c7f2c2d5-e052-49e8-b5de-712858c2ea78.jpg?1783906373",
+        "priceUsd": 5.15,
         "scryfallUri": "https://scryfall.com/card/fic/7/yshtola-nights-blessed?utm_source=api"
       }
     ],
-    "priceUsd": 3.57
+    "priceUsd": 5.15
   },
   "EOC-world-shaper": {
     "colorIdentity": [
@@ -4499,13 +4499,13 @@
         "typeLine": "Legendary Artifact — Spacecraft",
         "cmc": 4,
         "manaCost": "{1}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1754673442",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1754673442",
-        "priceUsd": 1.55,
+        "image": "https://cards.scryfall.io/normal/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1783906067",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1783906067",
+        "priceUsd": 1.04,
         "scryfallUri": "https://scryfall.com/card/eoc/1/hearthhull-the-worldseed?utm_source=api"
       }
     ],
-    "priceUsd": 1.55
+    "priceUsd": 1.04
   },
   "EOC-counter-intelligence": {
     "colorIdentity": [
@@ -4529,13 +4529,13 @@
         "typeLine": "Legendary Artifact Creature — Robot Artificer",
         "cmc": 3,
         "manaCost": "{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/3/0/307a859e-eb80-4af6-b731-92e4767b5100.jpg?1754673461",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/3/0/307a859e-eb80-4af6-b731-92e4767b5100.jpg?1754673461",
-        "priceUsd": 1.65,
+        "image": "https://cards.scryfall.io/normal/front/3/0/307a859e-eb80-4af6-b731-92e4767b5100.jpg?1783906067",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/0/307a859e-eb80-4af6-b731-92e4767b5100.jpg?1783906067",
+        "priceUsd": 2.19,
         "scryfallUri": "https://scryfall.com/card/eoc/3/kilo-apogee-mind?utm_source=api"
       }
     ],
-    "priceUsd": 1.65
+    "priceUsd": 2.19
   },
   "ECC-blight-curse": {
     "colorIdentity": [
@@ -4559,13 +4559,13 @@
         "typeLine": "Legendary Creature — Goblin Warlock",
         "cmc": 4,
         "manaCost": "{1}{B}{R}{G}",
-        "image": "https://cards.scryfall.io/normal/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1768940605",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1768940605",
-        "priceUsd": 0.46,
+        "image": "https://cards.scryfall.io/normal/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1783904606",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1783904606",
+        "priceUsd": 0.36,
         "scryfallUri": "https://scryfall.com/card/ecc/2/auntie-ool-cursewretch?utm_source=api"
       }
     ],
-    "priceUsd": 0.46
+    "priceUsd": 0.36
   },
   "ECC-dance-of-the-elements": {
     "colorIdentity": [
@@ -4593,13 +4593,13 @@
         "typeLine": "Legendary Creature — Elemental Sorcerer",
         "cmc": 3,
         "manaCost": "{2}{R}",
-        "image": "https://cards.scryfall.io/normal/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1768940591",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1768940591",
-        "priceUsd": 0.37,
+        "image": "https://cards.scryfall.io/normal/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1783904607",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1783904607",
+        "priceUsd": 0.46,
         "scryfallUri": "https://scryfall.com/card/ecc/1/ashling-the-limitless?utm_source=api"
       }
     ],
-    "priceUsd": 0.37
+    "priceUsd": 0.46
   },
   "TMC-turtle-power": {
     "colorIdentity": [
@@ -4628,13 +4628,13 @@
         "typeLine": "Legendary Creature — Mutant Ninja Turtle",
         "cmc": 4,
         "manaCost": "{3}{W}",
-        "image": "https://cards.scryfall.io/normal/front/7/2/72e637db-7112-406f-809b-0eda248488b5.jpg?1773509673",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/2/72e637db-7112-406f-809b-0eda248488b5.jpg?1773509673",
-        "priceUsd": 2.87,
+        "image": "https://cards.scryfall.io/normal/front/7/2/72e637db-7112-406f-809b-0eda248488b5.jpg?1783904176",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/2/72e637db-7112-406f-809b-0eda248488b5.jpg?1783904176",
+        "priceUsd": 1.62,
         "scryfallUri": "https://scryfall.com/card/tmc/1/leonardo-the-balance?utm_source=api"
       }
     ],
-    "priceUsd": 2.87
+    "priceUsd": 1.62
   },
   "SOC-silverquill-influence": {
     "colorIdentity": [
@@ -4656,13 +4656,13 @@
         "typeLine": "Legendary Creature — Human Warlock",
         "cmc": 3,
         "manaCost": "{1}{W}{B}",
-        "image": "https://cards.scryfall.io/normal/front/7/6/76b6c35a-bb92-4ad3-8f85-88b9bafc6266.jpg?1776731061",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76b6c35a-bb92-4ad3-8f85-88b9bafc6266.jpg?1776731061",
-        "priceUsd": 1.5,
+        "image": "https://cards.scryfall.io/normal/front/7/6/76b6c35a-bb92-4ad3-8f85-88b9bafc6266.jpg?1783903867",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76b6c35a-bb92-4ad3-8f85-88b9bafc6266.jpg?1783903867",
+        "priceUsd": 0.77,
         "scryfallUri": "https://scryfall.com/card/soc/4/killian-decisive-mentor?utm_source=api"
       }
     ],
-    "priceUsd": 1.5
+    "priceUsd": 0.77
   },
   "SOC-prismari-artistry": {
     "colorIdentity": [
@@ -4684,13 +4684,13 @@
         "typeLine": "Legendary Creature — Orc Sorcerer",
         "cmc": 4,
         "manaCost": "{2}{U}{R}",
-        "image": "https://cards.scryfall.io/normal/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1776731088",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1776731088",
-        "priceUsd": 1.23,
+        "image": "https://cards.scryfall.io/normal/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1783903866",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1783903866",
+        "priceUsd": 0.77,
         "scryfallUri": "https://scryfall.com/card/soc/8/rootha-mastering-the-moment?utm_source=api"
       }
     ],
-    "priceUsd": 1.23
+    "priceUsd": 0.77
   },
   "SOC-witherbloom-pestilence": {
     "colorIdentity": [
@@ -4712,13 +4712,13 @@
         "typeLine": "Legendary Creature — Dryad Druid",
         "cmc": 3,
         "manaCost": "{1}{B}{G}",
-        "image": "https://cards.scryfall.io/normal/front/9/f/9fe237b8-c02c-41ea-9fc4-b771b91d2157.jpg?1776731047",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9fe237b8-c02c-41ea-9fc4-b771b91d2157.jpg?1776731047",
-        "priceUsd": 3.73,
+        "image": "https://cards.scryfall.io/normal/front/9/f/9fe237b8-c02c-41ea-9fc4-b771b91d2157.jpg?1783903869",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9fe237b8-c02c-41ea-9fc4-b771b91d2157.jpg?1783903869",
+        "priceUsd": 2.43,
         "scryfallUri": "https://scryfall.com/card/soc/1/dina-essence-brewer?utm_source=api"
       }
     ],
-    "priceUsd": 3.73
+    "priceUsd": 2.43
   },
   "SOC-lorehold-spirit": {
     "colorIdentity": [
@@ -4739,13 +4739,13 @@
         "typeLine": "Legendary Planeswalker — Quintorius",
         "cmc": 4,
         "manaCost": "{2}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/0/7/0742f19d-179c-43c4-ab95-4160c56b4384.jpg?1776731084",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/7/0742f19d-179c-43c4-ab95-4160c56b4384.jpg?1776731084",
-        "priceUsd": 1.44,
+        "image": "https://cards.scryfall.io/normal/front/0/7/0742f19d-179c-43c4-ab95-4160c56b4384.jpg?1783903867",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/7/0742f19d-179c-43c4-ab95-4160c56b4384.jpg?1783903867",
+        "priceUsd": 0.72,
         "scryfallUri": "https://scryfall.com/card/soc/7/quintorius-history-chaser?utm_source=api"
       }
     ],
-    "priceUsd": 1.44
+    "priceUsd": 0.72
   },
   "SOC-quandrix-unlimited": {
     "colorIdentity": [
@@ -4767,13 +4767,13 @@
         "typeLine": "Legendary Creature — Human Wizard",
         "cmc": 3,
         "manaCost": "{1}{G}{U}",
-        "image": "https://cards.scryfall.io/normal/front/6/0/605afac4-d2e5-4e68-97d2-3ac2ead5f3a9.jpg?1776731029",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/605afac4-d2e5-4e68-97d2-3ac2ead5f3a9.jpg?1776731029",
-        "priceUsd": 1.27,
+        "image": "https://cards.scryfall.io/normal/front/6/0/605afac4-d2e5-4e68-97d2-3ac2ead5f3a9.jpg?1783903866",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/605afac4-d2e5-4e68-97d2-3ac2ead5f3a9.jpg?1783903866",
+        "priceUsd": 0.69,
         "scryfallUri": "https://scryfall.com/card/soc/10/zimone-infinite-analyst?utm_source=api"
       }
     ],
-    "priceUsd": 1.27
+    "priceUsd": 0.69
   },
   "SLD-goblin-storm": {
     "colorIdentity": [
@@ -4794,9 +4794,9 @@
         "typeLine": "Legendary Creature — Goblin Ally",
         "cmc": 4,
         "manaCost": "{3}{R}",
-        "image": "https://cards.scryfall.io/normal/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1689998306",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1689998306",
-        "priceUsd": 0.14,
+        "image": "https://cards.scryfall.io/normal/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+        "priceUsd": 0.18,
         "scryfallUri": "https://scryfall.com/card/cmm/268/zada-hedron-grinder?utm_source=api"
       },
       {
@@ -4807,13 +4807,13 @@
         "typeLine": "Legendary Creature — Goblin Warrior",
         "cmc": 4,
         "manaCost": "{2}{R}{R}",
-        "image": "https://cards.scryfall.io/normal/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1730632010",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1730632010",
-        "priceUsd": 1.74,
+        "image": "https://cards.scryfall.io/normal/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1783909065",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1783909065",
+        "priceUsd": 2.71,
         "scryfallUri": "https://scryfall.com/card/fdn/204/krenko-mob-boss?utm_source=api"
       }
     ],
-    "priceUsd": 1.88
+    "priceUsd": 2.89
   },
   "MSC-avengers-assemble": {
     "colorIdentity": [
@@ -4837,14 +4837,14 @@
         ],
         "typeLine": "Legendary Creature — Human Soldier Hero",
         "cmc": 3,
-        "manaCost": "{U}{R}{W}",
-        "image": "https://cards.scryfall.io/normal/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1780413188",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1780413188",
-        "priceUsd": 7.49,
-        "scryfallUri": "https://scryfall.com/card/msc/5/captain-america-team-leader?utm_source=api"
+        "manaCost": "{R}{W}{U}",
+        "image": "https://cards.scryfall.io/normal/front/f/f/ff25a4f5-c1de-464b-8153-7678bca847a8.jpg?1789532484",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/f/f/ff25a4f5-c1de-464b-8153-7678bca847a8.jpg?1789532484",
+        "priceUsd": null,
+        "scryfallUri": "https://scryfall.com/card/lmar/6/captain-america-team-leader?utm_source=api"
       }
     ],
-    "priceUsd": 7.49
+    "priceUsd": null
   },
   "MSC-doom-prevails": {
     "colorIdentity": [
@@ -4869,10 +4869,10 @@
         "typeLine": "Legendary Creature — Human Noble Villain",
         "cmc": 4,
         "manaCost": "{1}{U}{B}{R}",
-        "image": "https://cards.scryfall.io/normal/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1780413198",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1780413198",
+        "image": "https://cards.scryfall.io/normal/front/b/9/b9997d93-4c6f-49dd-8ff0-76901fe78859.jpg?1789532701",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9997d93-4c6f-49dd-8ff0-76901fe78859.jpg?1789532701",
         "priceUsd": null,
-        "scryfallUri": "https://scryfall.com/card/msc/6/doctor-doom-king-of-latveria?utm_source=api"
+        "scryfallUri": "https://scryfall.com/card/lmar/7/doctor-doom-king-of-latveria?utm_source=api"
       }
     ],
     "priceUsd": null
@@ -4901,10 +4901,10 @@
         "typeLine": "Legendary Creature — Human Hero",
         "cmc": 3,
         "manaCost": "{2}{W}",
-        "image": "https://cards.scryfall.io/normal/front/d/8/d8e13ecb-98be-4d9b-86a2-24eaa98f7f0d.jpg?1765294255",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d8e13ecb-98be-4d9b-86a2-24eaa98f7f0d.jpg?1765294255",
+        "image": "https://cards.scryfall.io/normal/front/8/d/8d239a23-9575-4202-804a-cab7c08a546d.jpg?1789532579",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/d/8d239a23-9575-4202-804a-cab7c08a546d.jpg?1789532579",
         "priceUsd": null,
-        "scryfallUri": "https://scryfall.com/card/msc/1/invisible-woman?utm_source=api"
+        "scryfallUri": "https://scryfall.com/card/lmar/5/invisible-woman?utm_source=api"
       }
     ],
     "priceUsd": null
@@ -4930,12 +4930,39 @@
         "typeLine": "Legendary Creature — Human Noble Hero",
         "cmc": 3,
         "manaCost": "{1}{G}{W}",
-        "image": "https://cards.scryfall.io/normal/front/c/1/c1c8ad61-b7e1-446c-8b74-6e29371ea1d5.jpg?1781500275",
-        "artCrop": "https://cards.scryfall.io/art_crop/front/c/1/c1c8ad61-b7e1-446c-8b74-6e29371ea1d5.jpg?1781500275",
-        "priceUsd": 7,
-        "scryfallUri": "https://scryfall.com/card/msc/7/tchalla-the-black-panther?utm_source=api"
+        "image": "https://cards.scryfall.io/normal/front/d/7/d72c4452-b4f2-45a8-9127-42368a23ac6a.jpg?1789532400",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/7/d72c4452-b4f2-45a8-9127-42368a23ac6a.jpg?1789532400",
+        "priceUsd": null,
+        "scryfallUri": "https://scryfall.com/card/lmar/8/tchalla-the-black-panther?utm_source=api"
       }
     ],
-    "priceUsd": 7
+    "priceUsd": null
+  },
+  "SLD-hatsune-miku": {
+    "colorIdentity": [
+      "W",
+      "G"
+    ],
+    "isColorless": false,
+    "types": [
+      "Dryad"
+    ],
+    "commanders": [
+      {
+        "name": "Trostani, Selesnya's Voice",
+        "colorIdentity": [
+          "G",
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Dryad",
+        "cmc": 4,
+        "manaCost": "{G}{G}{W}{W}",
+        "image": "https://cards.scryfall.io/normal/front/3/4/34ea44f2-cb2f-4b86-83fc-fe507f05bb9d.jpg?1783932732",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/3/4/34ea44f2-cb2f-4b86-83fc-fe507f05bb9d.jpg?1783932732",
+        "priceUsd": 4.07,
+        "scryfallUri": "https://scryfall.com/card/c19/204/trostani-selesnyas-voice?utm_source=api"
+      }
+    ],
+    "priceUsd": 4.07
   }
 }

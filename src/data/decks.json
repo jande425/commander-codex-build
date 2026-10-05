@@ -1335,5 +1335,13 @@
     "deck": "Wakanda Forever",
     "set": "Marvel Super Heroes Commander",
     "code": "MSC"
+  },
+  {
+    "id": "SLD-hatsune-miku",
+    "year": 2026,
+    "commander": "Trostani, Selesnya's Voice",
+    "deck": "Hatsune Miku",
+    "set": "Secret Lair Drop",
+    "code": "SLD"
   }
 ]
