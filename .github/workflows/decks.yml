@@ -23,12 +23,16 @@ concurrency:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
+          package-manager-cache: false
+
+      - name: Test commander enrichment
+        run: node --test scripts/enrich.test.mjs
 
       # Scripts resolve paths as __dirname/../src/data, so scripts/ and
       # src/data/ must be siblings — which is this repo's layout.

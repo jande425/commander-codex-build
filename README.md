@@ -77,3 +77,9 @@ node --max-old-space-size=2048 scripts/prices.mjs
 
 No install step — the scripts use only Node built-ins and global `fetch`.
 Downloads are cached under `.cache/`, which is gitignored.
+
+Run the commander-enrichment regression tests without network access:
+
+```bash
+node --test scripts/enrich.test.mjs
+```

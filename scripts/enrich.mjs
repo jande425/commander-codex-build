@@ -35,15 +35,26 @@ function names(commander) {
 }
 
 async function fetchCard(name) {
-  if (cache[name]) return cache[name];
+  if (cache[name] && !cache[name].error) return cache[name];
+  // Failed lookups (including null entries written by older runs) must be retried.
+  delete cache[name];
   const url = 'https://api.scryfall.com/cards/named?fuzzy=' + encodeURIComponent(name);
-  let card = null;
+  let card = { error: 'Scryfall lookup failed', name };
+  let retryableFailure = false;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const res = await fetch(url, { headers: HEADERS });
-      if (res.status === 429) { await sleep(1500); continue; }
+      if (res.status === 429 || res.status >= 500) {
+        // Keep an error result even when every attempt is rate-limited, and
+        // back off before retrying instead of returning/caching null.
+        card = { error: `Scryfall HTTP ${res.status} after ${attempt + 1} attempt(s)`, name };
+        retryableFailure = true;
+        if (attempt < 2) await sleep(1500 * 2 ** attempt);
+        continue;
+      }
       const j = await res.json();
-      if (j.object === 'card') {
+      retryableFailure = false;
+      if (res.ok && j?.object === 'card') {
         const face = j.card_faces && !j.image_uris ? j.card_faces[0] : j;
         card = {
           name: j.name,
@@ -57,15 +68,23 @@ async function fetchCard(name) {
           scryfallUri: j.scryfall_uri || null,
         };
       } else {
-        card = { error: j.details || 'not found', name };
+        card = { error: j?.details || `Scryfall lookup failed (HTTP ${res.status})`, name };
       }
       break;
     } catch (e) {
-      if (attempt === 2) card = { error: String(e), name };
-      await sleep(800);
+      card = { error: String(e), name };
+      retryableFailure = true;
+      if (attempt < 2) await sleep(800 * 2 ** attempt);
     }
   }
-  cache[name] = card;
+  if (card.error && retryableFailure) {
+    // Keep completed lookups, but never publish partial enrichment during an
+    // outage: deck-sync only retries regeneration while the deck list differs.
+    writeFileSync(cacheFile, JSON.stringify(cache), 'utf8');
+    throw new Error(`Unable to enrich "${name}": ${card.error}. Enrichment was not written; rerun when Scryfall is available.`);
+  }
+  // Cache only successful cards so an outage cannot poison later runs.
+  if (!card.error) cache[name] = card;
   await sleep(110); // politeness gap
   return card;
 }
