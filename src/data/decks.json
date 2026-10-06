@@ -1343,5 +1343,53 @@
     "deck": "Hatsune Miku",
     "set": "Secret Lair Drop",
     "code": "SLD"
+  },
+  {
+    "id": "FDC-calling-all-angels",
+    "year": 2026,
+    "commander": "Giada, Font of Hope",
+    "deck": "Calling All Angels",
+    "set": "Foundations Commander",
+    "code": "FDC"
+  },
+  {
+    "id": "FDC-keen-engineering",
+    "year": 2026,
+    "commander": "Sai, Master Thopterist",
+    "deck": "Keen Engineering",
+    "set": "Foundations Commander",
+    "code": "FDC"
+  },
+  {
+    "id": "FDC-reign-of-dragons",
+    "year": 2026,
+    "commander": "Lathliss, Dragon Queen",
+    "deck": "Reign of Dragons",
+    "set": "Foundations Commander",
+    "code": "FDC"
+  },
+  {
+    "id": "FDC-tramplesaurus-rex",
+    "year": 2026,
+    "commander": "Ghalta, Primal Hunger",
+    "deck": "Tramplesaurus Rex",
+    "set": "Foundations Commander",
+    "code": "FDC"
+  },
+  {
+    "id": "FDC-wretched-ranks",
+    "year": 2026,
+    "commander": "Ghoulcaller Gisa",
+    "deck": "Wretched Ranks",
+    "set": "Foundations Commander",
+    "code": "FDC"
+  },
+  {
+    "id": "FRC-multiverse-reforged",
+    "year": 2026,
+    "commander": "Jace, Multiverse Architect",
+    "deck": "Multiverse Reforged",
+    "set": "Reality Fracture Commander",
+    "code": "FRC"
   }
 ]

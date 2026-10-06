@@ -4964,5 +4964,164 @@
       }
     ],
     "priceUsd": 4.07
+  },
+  "FDC-calling-all-angels": {
+    "colorIdentity": [
+      "W"
+    ],
+    "isColorless": false,
+    "types": [
+      "Angel"
+    ],
+    "commanders": [
+      {
+        "name": "Giada, Font of Hope",
+        "colorIdentity": [
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Angel",
+        "cmc": 2,
+        "manaCost": "{1}{W}",
+        "image": "https://cards.scryfall.io/normal/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1783909085",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1783909085",
+        "priceUsd": 0.86,
+        "scryfallUri": "https://scryfall.com/card/fdn/141/giada-font-of-hope?utm_source=api"
+      }
+    ],
+    "priceUsd": 0.86
+  },
+  "FDC-keen-engineering": {
+    "colorIdentity": [
+      "U"
+    ],
+    "isColorless": false,
+    "types": [
+      "Human",
+      "Artificer"
+    ],
+    "commanders": [
+      {
+        "name": "Sai, Master Thopterist",
+        "colorIdentity": [
+          "U"
+        ],
+        "typeLine": "Legendary Creature — Human Artificer",
+        "cmc": 3,
+        "manaCost": "{2}{U}",
+        "image": "https://cards.scryfall.io/normal/front/a/d/ad0b5c09-5075-408e-84c5-1095354ac53e.jpg?1783915691",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/d/ad0b5c09-5075-408e-84c5-1095354ac53e.jpg?1783915691",
+        "priceUsd": 0.69,
+        "scryfallUri": "https://scryfall.com/card/cmm/118/sai-master-thopterist?utm_source=api"
+      }
+    ],
+    "priceUsd": 0.69
+  },
+  "FDC-reign-of-dragons": {
+    "colorIdentity": [
+      "R"
+    ],
+    "isColorless": false,
+    "types": [
+      "Dragon"
+    ],
+    "commanders": [
+      {
+        "name": "Lathliss, Dragon Queen",
+        "colorIdentity": [
+          "R"
+        ],
+        "typeLine": "Legendary Creature — Dragon",
+        "cmc": 6,
+        "manaCost": "{4}{R}{R}",
+        "image": "https://cards.scryfall.io/normal/front/0/c/0cb48015-627b-49cd-8dc3-d446e82b8172.jpg?1783907068",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/0/c/0cb48015-627b-49cd-8dc3-d446e82b8172.jpg?1783907068",
+        "priceUsd": 0.56,
+        "scryfallUri": "https://scryfall.com/card/tdc/219/lathliss-dragon-queen?utm_source=api"
+      }
+    ],
+    "priceUsd": 0.56
+  },
+  "FDC-tramplesaurus-rex": {
+    "colorIdentity": [
+      "G"
+    ],
+    "isColorless": false,
+    "types": [
+      "Elder",
+      "Dinosaur"
+    ],
+    "commanders": [
+      {
+        "name": "Ghalta, Primal Hunger",
+        "colorIdentity": [
+          "G"
+        ],
+        "typeLine": "Legendary Creature — Elder Dinosaur",
+        "cmc": 12,
+        "manaCost": "{10}{G}{G}",
+        "image": "https://cards.scryfall.io/normal/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1783909058",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1783909058",
+        "priceUsd": 1.19,
+        "scryfallUri": "https://scryfall.com/card/fdn/222/ghalta-primal-hunger?utm_source=api"
+      }
+    ],
+    "priceUsd": 1.19
+  },
+  "FDC-wretched-ranks": {
+    "colorIdentity": [
+      "B"
+    ],
+    "isColorless": false,
+    "types": [
+      "Human",
+      "Wizard"
+    ],
+    "commanders": [
+      {
+        "name": "Ghoulcaller Gisa",
+        "colorIdentity": [
+          "B"
+        ],
+        "typeLine": "Legendary Creature — Human Wizard",
+        "cmc": 5,
+        "manaCost": "{3}{B}{B}",
+        "image": "https://cards.scryfall.io/normal/front/4/4/44d7906e-8a89-4644-acb5-46fbe97ab39f.jpg?1783915675",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/4/4/44d7906e-8a89-4644-acb5-46fbe97ab39f.jpg?1783915675",
+        "priceUsd": 4.08,
+        "scryfallUri": "https://scryfall.com/card/cmm/161/ghoulcaller-gisa?utm_source=api"
+      }
+    ],
+    "priceUsd": 4.08
+  },
+  "FRC-multiverse-reforged": {
+    "colorIdentity": [
+      "W",
+      "U",
+      "B",
+      "R"
+    ],
+    "isColorless": false,
+    "types": [
+      "Jace"
+    ],
+    "commanders": [
+      {
+        "name": "Jace, Multiverse Architect",
+        "colorIdentity": [
+          "B",
+          "R",
+          "U",
+          "W"
+        ],
+        "typeLine": "Legendary Planeswalker — Jace",
+        "cmc": 5,
+        "manaCost": "{1}{W}{U}{B}{R}",
+        "image": "https://cards.scryfall.io/normal/front/5/5/55cd03d9-2535-4cf3-a8b2-1418e1190f4a.jpg?1789644316",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/55cd03d9-2535-4cf3-a8b2-1418e1190f4a.jpg?1789644316",
+        "priceUsd": 1.23,
+        "scryfallUri": "https://scryfall.com/card/frc/1/jace-multiverse-architect?utm_source=api"
+      }
+    ],
+    "priceUsd": 1.23
   }
 }
