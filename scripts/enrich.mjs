@@ -1,10 +1,10 @@
 // Enriches every deck's commander with Scryfall data (color identity, types,
-// image, price) and writes src/data/enriched.json. Run once; results are cached
-// in .cache/scryfall.json so re-runs are cheap and polite to the API.
+// image, price) and writes src/data/enriched.json. Reuses successful commander
+// records from that file and .cache/scryfall.json, including on fresh CI runners.
 //
 //   node scripts/enrich.mjs
 //
-// Scryfall asks for a User-Agent, ~50-100ms between requests, and caching.
+// Fetch only missing cards, pace requests, and respect Scryfall's Retry-After.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
@@ -13,6 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = resolve(__dirname, '..', 'src', 'data');
 const cacheDir = resolve(__dirname, '..', '.cache');
 const cacheFile = resolve(cacheDir, 'scryfall.json');
+const enrichedFile = resolve(dataDir, 'enriched.json');
 
 const decks = JSON.parse(readFileSync(resolve(dataDir, 'decks.json'), 'utf8'));
 mkdirSync(cacheDir, { recursive: true });
@@ -34,8 +35,42 @@ function names(commander) {
   return commander.split(' & ').map(normalize);
 }
 
+function isCachedCard(card) {
+  return card && !card.error && typeof card.name === 'string' && card.name.trim()
+    && Array.isArray(card.colorIdentity) && typeof card.typeLine === 'string' && card.typeLine.trim();
+}
+
+// GitHub runners start without .cache, but already check out successful
+// enrichment. Index by card name, not deck ID, so changed commanders are fetched
+// and reprints can reuse the same card. A local cache takes precedence.
+const previous = existsSync(enrichedFile) ? JSON.parse(readFileSync(enrichedFile, 'utf8')) : {};
+for (const deck of Object.values(previous)) {
+  if (!Array.isArray(deck?.commanders)) continue;
+  for (const card of deck.commanders) {
+    if (!isCachedCard(card)) continue;
+    const fullName = normalize(card.name);
+    for (const name of new Set([fullName, fullName.split(' // ')[0]])) {
+      if (!isCachedCard(cache[name])) cache[name] = card;
+    }
+  }
+}
+const requiredNames = [...new Set(decks.flatMap((deck) => names(deck.commander)))];
+const missingNames = requiredNames.filter((name) => !isCachedCard(cache[name]));
+console.log(`Reusing ${requiredNames.length - missingNames.length} commander cards; ${missingNames.length} Scryfall lookup(s) needed.`);
+
+function retryDelay(response, attempt) {
+  // A short retry loop cannot recover from a sustained rate limit. Give the
+  // service a cooldown and never retry before its requested time.
+  const backoff = (response.status === 429 ? 30_000 : 1500) * 2 ** attempt;
+  const retryAfter = response.headers.get('Retry-After');
+  if (!retryAfter) return backoff;
+  const seconds = Number(retryAfter);
+  const requestedDelay = Number.isFinite(seconds) ? seconds * 1000 : Date.parse(retryAfter) - Date.now();
+  return Number.isFinite(requestedDelay) ? Math.max(backoff, requestedDelay) : backoff;
+}
+
 async function fetchCard(name) {
-  if (cache[name] && !cache[name].error) return cache[name];
+  if (isCachedCard(cache[name])) return cache[name];
   // Failed lookups (including null entries written by older runs) must be retried.
   delete cache[name];
   const url = 'https://api.scryfall.com/cards/named?fuzzy=' + encodeURIComponent(name);
@@ -49,7 +84,7 @@ async function fetchCard(name) {
         // back off before retrying instead of returning/caching null.
         card = { error: `Scryfall HTTP ${res.status} after ${attempt + 1} attempt(s)`, name };
         retryableFailure = true;
-        if (attempt < 2) await sleep(1500 * 2 ** attempt);
+        if (attempt < 2) await sleep(retryDelay(res, attempt));
         continue;
       }
       const j = await res.json();
@@ -85,7 +120,7 @@ async function fetchCard(name) {
   }
   // Cache only successful cards so an outage cannot poison later runs.
   if (!card.error) cache[name] = card;
-  await sleep(110); // politeness gap
+  await sleep(250); // conservative pacing for the remaining uncached lookups
   return card;
 }
 
@@ -131,7 +166,7 @@ for (const d of decks) {
 }
 
 writeFileSync(cacheFile, JSON.stringify(cache), 'utf8');
-writeFileSync(resolve(dataDir, 'enriched.json'), JSON.stringify(enriched, null, 2) + '\n', 'utf8');
+writeFileSync(enrichedFile, JSON.stringify(enriched, null, 2) + '\n', 'utf8');
 console.log(`Wrote enrichment for ${done} decks to src/data/enriched.json`);
 if (errors.length) {
   console.log(`\n${errors.length} lookup issue(s) to review:`);

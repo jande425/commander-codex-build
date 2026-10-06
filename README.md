@@ -78,6 +78,11 @@ node --max-old-space-size=2048 scripts/prices.mjs
 No install step — the scripts use only Node built-ins and global `fetch`.
 Downloads are cached under `.cache/`, which is gitignored.
 
+`node scripts/enrich.mjs` also reuses successful commander records from the
+committed `src/data/enriched.json`, so a fresh CI runner only looks up missing
+commanders. New lookups are paced; rate limits trigger a cooldown that respects
+`Retry-After`. If retries are exhausted, existing enrichment is preserved.
+
 Run the commander-enrichment regression tests without network access:
 
 ```bash
