@@ -1391,5 +1391,13 @@
     "deck": "Multiverse Reforged",
     "set": "Reality Fracture Commander",
     "code": "FRC"
+  },
+  {
+    "id": "SLD-odds-and-ends",
+    "year": 2026,
+    "commander": "Yennett, Cryptic Sovereign",
+    "deck": "Odds and Ends",
+    "set": "Secret Lair Drop",
+    "code": "SLD"
   }
 ]

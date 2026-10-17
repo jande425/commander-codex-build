@@ -5123,5 +5123,34 @@
       }
     ],
     "priceUsd": 1.23
+  },
+  "SLD-odds-and-ends": {
+    "colorIdentity": [
+      "W",
+      "U",
+      "B"
+    ],
+    "isColorless": false,
+    "types": [
+      "Sphinx"
+    ],
+    "commanders": [
+      {
+        "name": "Yennett, Cryptic Sovereign",
+        "colorIdentity": [
+          "B",
+          "U",
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Sphinx",
+        "cmc": 5,
+        "manaCost": "{2}{W}{U}{B}",
+        "image": "https://cards.scryfall.io/normal/front/2/8/28ee11c9-fa23-4863-8a18-25a008f18da5.jpg?1783915606",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/2/8/28ee11c9-fa23-4863-8a18-25a008f18da5.jpg?1783915606",
+        "priceUsd": 0.55,
+        "scryfallUri": "https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign?utm_source=api"
+      }
+    ],
+    "priceUsd": 0.55
   }
 }
