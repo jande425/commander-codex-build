@@ -1399,5 +1399,37 @@
     "deck": "Odds and Ends",
     "set": "Secret Lair Drop",
     "code": "SLD"
+  },
+  {
+    "id": "TRC-federation-fleet",
+    "year": 2026,
+    "commander": "Jean-Luc Picard, Luminary",
+    "deck": "Federation Fleet",
+    "set": "Star Trek Commander",
+    "code": "TRC"
+  },
+  {
+    "id": "TRC-klingon-fury",
+    "year": 2026,
+    "commander": "Worf, Defiant Commander",
+    "deck": "Klingon Fury",
+    "set": "Star Trek Commander",
+    "code": "TRC"
+  },
+  {
+    "id": "TRC-landing-party",
+    "year": 2026,
+    "commander": "Commander Spock",
+    "deck": "Landing Party",
+    "set": "Star Trek Commander",
+    "code": "TRC"
+  },
+  {
+    "id": "TRC-we-are-the-borg",
+    "year": 2026,
+    "commander": "The Borg Queen",
+    "deck": "We Are the Borg",
+    "set": "Star Trek Commander",
+    "code": "TRC"
   }
 ]

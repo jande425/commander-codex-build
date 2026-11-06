@@ -5152,5 +5152,127 @@
       }
     ],
     "priceUsd": 0.55
+  },
+  "TRC-federation-fleet": {
+    "colorIdentity": [
+      "W",
+      "U",
+      "R"
+    ],
+    "isColorless": false,
+    "types": [
+      "Human",
+      "Officer"
+    ],
+    "commanders": [
+      {
+        "name": "Jean-Luc Picard, Luminary",
+        "colorIdentity": [
+          "R",
+          "U",
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Human Officer",
+        "cmc": 4,
+        "manaCost": "{1}{U}{R}{W}",
+        "image": "https://cards.scryfall.io/normal/front/1/3/136b07f3-b902-41af-8732-92c6448b6ef9.jpg?1792551639",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/1/3/136b07f3-b902-41af-8732-92c6448b6ef9.jpg?1792551639",
+        "priceUsd": null,
+        "scryfallUri": "https://scryfall.com/card/pspl/14/jean-luc-picard-luminary?utm_source=api"
+      }
+    ],
+    "priceUsd": null
+  },
+  "TRC-klingon-fury": {
+    "colorIdentity": [
+      "W",
+      "B",
+      "R"
+    ],
+    "isColorless": false,
+    "types": [
+      "Klingon",
+      "Warrior",
+      "Officer"
+    ],
+    "commanders": [
+      {
+        "name": "Worf, Defiant Commander",
+        "colorIdentity": [
+          "B",
+          "R",
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Klingon Warrior Officer",
+        "cmc": 5,
+        "manaCost": "{2}{R}{W}{B}",
+        "image": "https://cards.scryfall.io/normal/front/d/a/da030114-a4ee-46d7-a6fd-6c0d8e779bcf.jpg?1792507927",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/d/a/da030114-a4ee-46d7-a6fd-6c0d8e779bcf.jpg?1792507927",
+        "priceUsd": null,
+        "scryfallUri": "https://scryfall.com/card/trc/4/worf-defiant-commander?utm_source=api"
+      }
+    ],
+    "priceUsd": null
+  },
+  "TRC-landing-party": {
+    "colorIdentity": [
+      "W",
+      "U",
+      "G"
+    ],
+    "isColorless": false,
+    "types": [
+      "Vulcan",
+      "Human",
+      "Scientist"
+    ],
+    "commanders": [
+      {
+        "name": "Commander Spock",
+        "colorIdentity": [
+          "G",
+          "U",
+          "W"
+        ],
+        "typeLine": "Legendary Creature — Vulcan Human Scientist",
+        "cmc": 5,
+        "manaCost": "{2}{G}{W}{U}",
+        "image": "https://cards.scryfall.io/normal/front/c/f/cf114392-a38d-4117-aa41-911d6dc1051b.jpg?1792551005",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cf114392-a38d-4117-aa41-911d6dc1051b.jpg?1792551005",
+        "priceUsd": null,
+        "scryfallUri": "https://scryfall.com/card/trc/2/commander-spock?utm_source=api"
+      }
+    ],
+    "priceUsd": null
+  },
+  "TRC-we-are-the-borg": {
+    "colorIdentity": [
+      "W",
+      "U",
+      "B"
+    ],
+    "isColorless": false,
+    "types": [
+      "Borg",
+      "Noble"
+    ],
+    "commanders": [
+      {
+        "name": "The Borg Queen",
+        "colorIdentity": [
+          "B",
+          "U",
+          "W"
+        ],
+        "typeLine": "Legendary Artifact Creature — Borg Noble",
+        "cmc": 7,
+        "manaCost": "{4}{W}{U}{B}",
+        "image": "https://cards.scryfall.io/normal/front/8/e/8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab.jpg?1792507909",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/e/8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab.jpg?1792507909",
+        "priceUsd": 9.89,
+        "scryfallUri": "https://scryfall.com/card/trc/1/the-borg-queen?utm_source=api"
+      }
+    ],
+    "priceUsd": 9.89
   }
 }
